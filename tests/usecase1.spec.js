@@ -38,7 +38,7 @@ let articleid;
 let serialNumber1;
 let serialNumber2;
 
-test('Use CSV date in test', async ({ page }) => {
+test('Use CSV data in test', async ({ page }) => {
   const filePath = 'C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/prd_file.csv';
    irdno = readCsvColumn(filePath, 'INWARD_REFERENCE_DOCUMENT_NUMBER');
    articleid = readCsvColumn(filePath, 'SKU_CODE');
@@ -247,7 +247,6 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
           const usernameField = await driver.$('id=com.blubirch.rims.whirlpoolDemo:id/edtEmail');
            await usernameField.waitForDisplayed({ timeout: 5000 });
           await usernameField.setValue('dava_admin');
-          
           const passwordField = await driver.$('id=com.blubirch.rims.whirlpoolDemo:id/edtPassword');
           await passwordField.waitForDisplayed({ timeout: 5000 });
            await passwordField.setValue('blubirch@123');
@@ -349,7 +348,7 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
       await ticketNo.fill(ts);
       const ticketDate=page.locator("//input[@aria-expanded='undefined']");
       await ticketDate.click();
-      const selectDate=page.locator("//div[@data-v-date='2025-10-06']");
+      const selectDate=page.locator("//div[@data-v-date='2025-10-27']");
       await selectDate.click();
      const OKBtn=page.locator("//span[text()='Ok']");
      await OKBtn.click();
