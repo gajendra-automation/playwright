@@ -1,6 +1,0 @@
-2025-09-30T11:37:46.882Z INFO webdriver: Initiate new session using the WebDriver protocol
-2025-09-30T11:37:46.884Z INFO @wdio/utils: Connecting to existing driver at http://localhost:4723/wd/hub
-2025-09-30T11:37:46.905Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session
-2025-09-30T11:38:56.111Z INFO webdriver: COMMAND deleteSession()
-2025-09-30T11:38:56.116Z INFO webdriver: [DELETE] http://localhost:4723/wd/hub/session/244b263f-130c-4378-bc5b-c5c7b35e1f1f
-2025-09-30T11:38:56.760Z INFO webdriver: RESULT null

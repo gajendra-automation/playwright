@@ -1,2 +1,0 @@
-P-13028 PickUp request successfully created.
-Sub Request ID: P-13028

@@ -26,11 +26,10 @@ class reverselogisticspage {
     this.updateStatusBtn = page.getByRole('button', { name: 'Update Status' });
     this.updatePickupOption = page.getByText('Update Pickup Details');
     this.pickupDateField = page.getByRole('textbox', { name: 'Pick Up Date Pick Up Date' });
-    this.selectDate = page.getByRole('button', { name: '19' });
+    this.selectDate = page.getByRole('button', { name: '27' });
 
     this.updateDropOption = page.locator("//div[text()='Update Drop Details']");
     this.dropDateField = page.getByLabel("Drop Date");
-
     this.userMenu = page.locator("//span[@class='pull-right'][1]");
     this.logoutBtn = page.getByText('Logout', { exact: true });
   }

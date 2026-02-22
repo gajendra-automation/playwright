@@ -1,3 +1,0 @@
-2025-09-30T10:54:03.008Z INFO webdriver: COMMAND deleteSession()
-2025-09-30T10:54:03.009Z INFO webdriver: [DELETE] http://localhost:4723/wd/hub/session/e650883f-1f32-4d0d-ab81-a68b5f2ffbba
-2025-09-30T10:54:03.558Z INFO webdriver: RESULT null

@@ -1,6 +1,0 @@
-2025-10-02T12:47:38.021Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T12:47:40.916Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T12:47:47.349Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T12:47:47.467Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T12:47:47.700Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T12:47:48.380Z WARN webdriver: Request encountered a stale element - terminating request

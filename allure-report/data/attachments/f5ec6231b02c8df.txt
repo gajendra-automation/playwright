@@ -1,7 +1,0 @@
-dispatched Promise {
-  <pending>,
-  [Symbol(async_id_symbol)]: 767988,
-  [Symbol(trigger_async_id_symbol)]: 766888,
-  [Symbol(kResourceStore)]: undefined
-}
-****************Successfully Executed********************

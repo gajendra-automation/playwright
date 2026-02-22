@@ -154,7 +154,6 @@ const enterTagID=driver.$('//android.widget.EditText[@resource-id="com.blubirch.
 await enterTagID.setValue(tagId);
 const generateGRN=driver.$('id=com.blubirch.rims.whirlpoolDemo:id/btnGenerateGRN');
 await generateGRN.click();
-
 // After all tests, end the session
    
 });

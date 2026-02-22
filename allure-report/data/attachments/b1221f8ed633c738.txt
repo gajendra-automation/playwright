@@ -1,5 +1,0 @@
-Loading till Brand Call Log page
-pendingBCL confrmMSG : locator('//div[@class=\'v-row\']//div[@class=\'v-card-text text-center\']')
-2025-09-30T11:10:26.032Z INFO webdriver: COMMAND deleteSession()
-2025-09-30T11:10:26.033Z INFO webdriver: [DELETE] http://localhost:4723/wd/hub/session/36646bdd-0ca4-4028-b2e3-94c8d559e034
-2025-09-30T11:10:26.544Z INFO webdriver: RESULT null

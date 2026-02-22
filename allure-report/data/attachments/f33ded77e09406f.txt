@@ -1,6 +1,0 @@
-tagid generated................. T-YKNZF2
-Signed in successfully
-Invalid credentials pls check...!
-https://rims-demo.blubirch.com/URL is not correct
-Return creation module is displayed
-Request type selection page displayed

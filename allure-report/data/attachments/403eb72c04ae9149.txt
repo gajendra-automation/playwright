@@ -1,9 +1,0 @@
-2025-10-02T11:56:08.513Z WARN webdriver: WebDriverError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20060ms. when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
-2025-10-02T11:57:06.419Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:09.167Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:11.545Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:11.766Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:16.142Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:16.409Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:17.369Z WARN webdriver: Request encountered a stale element - terminating request
-2025-10-02T11:57:17.644Z WARN webdriver: Request encountered a stale element - terminating request

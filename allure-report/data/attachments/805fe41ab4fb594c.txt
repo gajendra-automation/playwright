@@ -1,1 +1,0 @@
-2025-10-06T05:59:37.923Z WARN webdriver: WebDriverError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up when running "element" with method "POST" and args "{"using":"id","value":"com.blubirch.rims.whirlpoolDemo:id/edtEmail"}"

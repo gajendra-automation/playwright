@@ -17,14 +17,14 @@ class dealerpartner {
      // corrected casing
     this.header = page.locator('//div[text()="Return Creation "]');
     this.createRequestBtn = page.locator('//span[text()="Create Request"]');
+    this.selectActionDropd = page.location("//span[text()=' Select Action ']");
   }
 
   async verifyModuleAndStartRequest() {
-    const headerText = await this.header.textContent();
-    if (headerText === "Return Creation ") {
+     const headerText = await this.header.textContent();
       console.log("Return creation module is displayed");
-      await expect(this.createRequestBtn).toBeVisible();
-      await this.createRequestBtn.click();
+      await this.selectActionDropd.click();
+      await  this.createRequestBtn.click();
       await expect(this.page.locator('//span[text()="Return / Claim Requests"]')).toBeVisible();
       console.log("Request type selection page displayed");
       await this.page.locator('//i[@role="button"]').nth(4).click();
@@ -32,7 +32,6 @@ class dealerpartner {
       await this.page.getByLabel("Customer/Entity Name*").click();
       await this.page.locator("//div[text()='Dava gajendra - (sales999)']").click();
       await this.page.locator("(//i[@role='button'])[5]").click();
-    }
   }
 
   async fillCustomerDetails(contactNumber=this.contactNumber,location=this.location ) {

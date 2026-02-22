@@ -1,3 +1,0 @@
-2025-10-02T12:33:02.411Z INFO webdriver: Initiate new session using the WebDriver protocol
-2025-10-02T12:33:02.413Z INFO @wdio/utils: Connecting to existing driver at http://localhost:4723/wd/hub
-2025-10-02T12:33:02.434Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session

@@ -189,22 +189,21 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
 
 
   test('5-Upload PRD File', async({page})=>{
-    console.log("******RIMS FLOW STARTED******************");
-    await page.goto("https://rims-demo.blubirch.com/");
-    const userNameTextField=page.locator('//input[@type="text"]');
-    await expect(userNameTextField).toBeVisible();
-    await userNameTextField.fill("dava_admin");
-    const passwordTextField=page.locator('//input[@type="password"]');
-    await expect(passwordTextField).toBeVisible();
-    await passwordTextField.fill("blubirch@123");
-    const logInBtn = page.locator('//span[text()="Login"]');
-    await expect(logInBtn).toBeVisible();
-    await logInBtn.click();
-    await page.getByText('RIMS').click();
-    await page.getByRole('link', { name: 'PRD' }).click();
-    await page.getByRole('tab', { name: 'Incomplete PRDs' }).click();
-    await page.getByRole('button', { name: 'Create PRD' }).click();
+  console.log("******RIMS FLOW STARTED******************");
+  test.setTimeout(60000);
+   await page.goto('https://rims-demo.blubirch.com/', {timeout: 80000});
+      await page.getByRole('textbox', { name: 'Enter email ID/phone number/' }).click();
+      await page.getByRole('textbox', { name: 'Enter email ID/phone number/' }).fill('dava_admin');
+      await page.getByRole('textbox', { name: 'Enter Password' }).click();
+      await page.getByRole('textbox', { name: 'Enter Password' }).fill('blubirch@123');
+      await page.getByRole('button', { name: 'Login' }).click();
+      await page.getByText('RIMS').click();
+      await page.getByRole('link', { name: 'PRD' }).click();
+     //await page.getByRole('tab', { name: 'Open PRDs' }).click();
+     await page.getByRole('tab', { name: 'Incomplete PRDs' }).click();
+     await page.getByRole('button', { name: 'Create PRD' }).click();
     await page.getByRole('button', { name: 'Upload' }).click();
+  
     const attachFile= page.getByRole('button', { name: 'Attach Csv file prepended' });
     //file upload
     const [fileChooser1] = await Promise.all([
@@ -221,7 +220,7 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
   })
   
   
-  test.describe('Mobile App Login Test', function () {
+  test.describe('Mobile App Login Test', function () {  
       // this.tC:\Users\Blubirch.DESKTOP-EN2LGLN\Documents/PRD_demo (2).xlsx
    //console.log("44444444");
     
@@ -348,7 +347,7 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
       await ticketNo.fill(ts);
       const ticketDate=page.locator("//input[@aria-expanded='undefined']");
       await ticketDate.click();
-      const selectDate=page.locator("//div[@data-v-date='2025-10-27']");
+      const selectDate=page.locator("//div[@data-v-date='2025-11-05']");
       await selectDate.click();
      const OKBtn=page.locator("//span[text()='Ok']");
      await OKBtn.click();
@@ -370,6 +369,7 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
     await page.getByLabel('Search').fill(tagId);
     await page.keyboard.press('Enter');
     await page.waitForTimeout(3000);
+
     await checkBox.click();
     const updateConfBtn=page.locator("//span[text()='Update Confirmation']");
     updateConfBtn.click();

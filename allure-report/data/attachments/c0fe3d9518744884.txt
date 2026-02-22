@@ -1,2 +1,0 @@
-P-13003 PickUp request successfully created.
-Sub Request ID: P-13003

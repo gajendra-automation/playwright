@@ -1,0 +1,1800 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - link "Blubirch Logo" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img "Blubirch Logo" [ref=e14] [cursor=pointer]
+          - generic [ref=e16]:
+            - button "Tag ID" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18] [cursor=pointer]: Tag ID
+            - button "IRD" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20] [cursor=pointer]: IRD
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - generic [ref=e29]: 󰍉
+              - textbox "Search-Item" [ref=e31]
+              - generic [ref=e33]: 󰊓
+            - alert [ref=e34]
+          - listbox [ref=e36]:
+            - generic [ref=e39] [cursor=pointer]:
+              - img [ref=e40] [cursor=pointer]
+              - text: RIA
+              - button "󰅀" [ref=e41] [cursor=pointer]
+            - generic [ref=e46] [cursor=pointer]:
+              - img [ref=e47] [cursor=pointer]
+              - text: RIMS
+              - button "󰅀" [ref=e48] [cursor=pointer]
+            - link "Generate IDs" [ref=e49] [cursor=pointer]:
+              - /url: /api/v2/generateTrackIds/generate
+              - generic [ref=e51] [cursor=pointer]:
+                - img [ref=e52] [cursor=pointer]
+                - generic [ref=e53] [cursor=pointer]: Generate IDs
+            - link "Pending Approval" [ref=e54] [cursor=pointer]:
+              - /url: /api/v1/warehouse/physical_inspection/Approval
+              - generic [ref=e56] [cursor=pointer]:
+                - img [ref=e57] [cursor=pointer]
+                - generic [ref=e58] [cursor=pointer]: Pending Approval
+            - generic [ref=e61] [cursor=pointer]:
+              - img [ref=e62] [cursor=pointer]
+              - text: Analytics
+              - button "󰅀" [ref=e63] [cursor=pointer]
+            - link "Notification" [ref=e64] [cursor=pointer]:
+              - /url: /alert-component
+              - generic [ref=e66] [cursor=pointer]:
+                - img [ref=e67] [cursor=pointer]
+                - generic [ref=e68] [cursor=pointer]: Notification
+            - generic [ref=e71] [cursor=pointer]:
+              - img [ref=e72] [cursor=pointer]
+              - text: Settings
+              - button "󰅀" [ref=e73] [cursor=pointer]
+      - button [ref=e74] [cursor=pointer]:
+        - generic [ref=e76] [cursor=pointer]: 󰄽
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - text: Return Creation
+            - generic:
+              - link:
+                - /url: /v1/warehouse/liquidationNew
+            - generic:
+              - link:
+                - /url: /api/v2/return-creation
+          - generic [ref=e82]:
+            - img [ref=e84] [cursor=pointer]
+            - generic [ref=e86]:
+              - generic [ref=e88]: Dava
+              - generic [ref=e90]: admin
+            - combobox [ref=e94]:
+              - generic [ref=e95]:
+                - generic: ALL RPA
+                - textbox "ALL RPA ALL RPA" [ref=e97] [cursor=pointer]
+              - button "Open" [ref=e99] [cursor=pointer]: 󰍝
+        - separator [ref=e100]
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e106]:
+            - generic [ref=e108]: 󰍉
+            - generic [ref=e109]:
+              - generic: Search
+              - textbox "Search Search" [active] [ref=e110]
+          - alert [ref=e111]
+        - button "Select Action" [ref=e115] [cursor=pointer]:
+          - generic [ref=e116] [cursor=pointer]:
+            - text: Select Action
+            - generic [ref=e117] [cursor=pointer]: 󰍝
+        - button "Filter" [ref=e121] [cursor=pointer]:
+          - text: Filter
+          - generic [ref=e124] [cursor=pointer]: 󰅀
+      - table [ref=e128]:
+        - rowgroup [ref=e129]:
+          - row "Client CRM Ticket No. Sub Request ID BB Ticket No. Creation Date/Ageing Customer/Entity Purchase Dealer Stage Request Type Location Sub-Request Status Images Approval History Update" [ref=e130]:
+            - cell [ref=e131]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: 󰄱
+                - checkbox [ref=e136] [cursor=pointer]
+            - cell "Client CRM Ticket No." [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e139]: Client CRM Ticket No.
+                - generic [ref=e140]: 󰁝
+            - cell "Sub Request ID" [ref=e141]:
+              - generic [ref=e143]: Sub Request ID
+            - cell "BB Ticket No." [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: BB Ticket No.
+                - generic [ref=e147]: 󰁝
+            - cell "Creation Date/Ageing" [ref=e148]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: Creation Date/Ageing
+                - generic [ref=e151]: 󰁝
+            - cell "Customer/Entity" [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: Customer/Entity
+                - generic [ref=e155]: 󰁝
+            - cell "Purchase Dealer" [ref=e156]:
+              - generic [ref=e158]: Purchase Dealer
+            - cell "Stage" [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]: Stage
+                - generic [ref=e162]: 󰁝
+            - cell "Request Type" [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]: Request Type
+                - generic [ref=e166]: 󰁝
+            - cell "Location" [ref=e167]:
+              - generic [ref=e168]:
+                - generic [ref=e169]: Location
+                - generic [ref=e170]: 󰁝
+            - cell "Sub-Request Status" [ref=e171]:
+              - generic [ref=e172]:
+                - generic [ref=e173]: Sub-Request Status
+                - generic [ref=e174]: 󰁝
+            - cell "Images" [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: Images
+                - generic [ref=e178]: 󰁝
+            - cell "Approval History" [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]: Approval History
+                - generic [ref=e182]: 󰁝
+            - cell "Update" [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e185]: Update
+                - generic [ref=e186]: 󰁝
+        - rowgroup [ref=e187]:
+          - row "FL15DAVA084 rs-2d27ad BBT-400329 27-11-2025 0... Jagadish Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e188]:
+            - cell [ref=e189]:
+              - generic [ref=e192]:
+                - generic [ref=e193]: 󰄱
+                - checkbox [ref=e194] [cursor=pointer]
+            - cell "FL15DAVA084" [ref=e195]:
+              - generic [ref=e196]: FL15DAVA084
+            - cell "rs-2d27ad" [ref=e197]:
+              - link "rs-2d27ad" [ref=e199] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-400329" [ref=e200]:
+              - generic [ref=e202]: BBT-400329
+            - cell "27-11-2025 0..." [ref=e203]:
+              - generic [ref=e205] [cursor=pointer]: 27-11-2025 0...
+            - cell "Jagadish" [ref=e206]:
+              - generic [ref=e208]: Jagadish
+            - cell [ref=e209]
+            - cell "Request" [ref=e210]:
+              - generic [ref=e212]: Request
+            - cell "Dealer-Partn..." [ref=e213]:
+              - generic [ref=e215] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e216]:
+              - generic [ref=e218] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e219]:
+              - generic [ref=e220]: Pending Validation
+            - cell "-" [ref=e221]:
+              - generic [ref=e222]: "-"
+            - cell "-" [ref=e223]:
+              - generic [ref=e224]: "-"
+            - cell "Update" [ref=e225]:
+              - button "Update" [ref=e227] [cursor=pointer]:
+                - generic [ref=e228] [cursor=pointer]: Update
+          - row "FL15DAVA083 rs-58fcfe BBT-649292 27-11-2025 0... Dava Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e229]:
+            - cell [ref=e230]:
+              - generic [ref=e233]:
+                - generic [ref=e234]: 󰄱
+                - checkbox [ref=e235] [cursor=pointer]
+            - cell "FL15DAVA083" [ref=e236]:
+              - generic [ref=e237]: FL15DAVA083
+            - cell "rs-58fcfe" [ref=e238]:
+              - link "rs-58fcfe" [ref=e240] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-649292" [ref=e241]:
+              - generic [ref=e243]: BBT-649292
+            - cell "27-11-2025 0..." [ref=e244]:
+              - generic [ref=e246] [cursor=pointer]: 27-11-2025 0...
+            - cell "Dava" [ref=e247]:
+              - generic [ref=e249]: Dava
+            - cell [ref=e250]
+            - cell "Request" [ref=e251]:
+              - generic [ref=e253]: Request
+            - cell "Dealer-Partn..." [ref=e254]:
+              - generic [ref=e256] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e257]:
+              - generic [ref=e259] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e260]:
+              - generic [ref=e261]: Pending Validation
+            - cell "-" [ref=e262]:
+              - generic [ref=e263]: "-"
+            - cell "-" [ref=e264]:
+              - generic [ref=e265]: "-"
+            - cell "Update" [ref=e266]:
+              - button "Update" [ref=e268] [cursor=pointer]:
+                - generic [ref=e269] [cursor=pointer]: Update
+          - row "FL15DAVA082 rs-307012 BBT-488041 27-11-2025 0... Gajendra Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e270]:
+            - cell [ref=e271]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: 󰄱
+                - checkbox [ref=e276] [cursor=pointer]
+            - cell "FL15DAVA082" [ref=e277]:
+              - generic [ref=e278]: FL15DAVA082
+            - cell "rs-307012" [ref=e279]:
+              - link "rs-307012" [ref=e281] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-488041" [ref=e282]:
+              - generic [ref=e284]: BBT-488041
+            - cell "27-11-2025 0..." [ref=e285]:
+              - generic [ref=e287] [cursor=pointer]: 27-11-2025 0...
+            - cell "Gajendra" [ref=e288]:
+              - generic [ref=e290]: Gajendra
+            - cell [ref=e291]
+            - cell "Request" [ref=e292]:
+              - generic [ref=e294]: Request
+            - cell "Dealer-Partn..." [ref=e295]:
+              - generic [ref=e297] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e298]:
+              - generic [ref=e300] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e301]:
+              - generic [ref=e302]: Pending Validation
+            - cell "-" [ref=e303]:
+              - generic [ref=e304]: "-"
+            - cell "-" [ref=e305]:
+              - generic [ref=e306]: "-"
+            - cell "Update" [ref=e307]:
+              - button "Update" [ref=e309] [cursor=pointer]:
+                - generic [ref=e310] [cursor=pointer]: Update
+          - row "FL15DAVA081 rs-bb8be4 BBT-360446 27-11-2025 0... Jayaram Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e311]:
+            - cell [ref=e312]:
+              - generic [ref=e315]:
+                - generic [ref=e316]: 󰄱
+                - checkbox [ref=e317] [cursor=pointer]
+            - cell "FL15DAVA081" [ref=e318]:
+              - generic [ref=e319]: FL15DAVA081
+            - cell "rs-bb8be4" [ref=e320]:
+              - link "rs-bb8be4" [ref=e322] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-360446" [ref=e323]:
+              - generic [ref=e325]: BBT-360446
+            - cell "27-11-2025 0..." [ref=e326]:
+              - generic [ref=e328] [cursor=pointer]: 27-11-2025 0...
+            - cell "Jayaram" [ref=e329]:
+              - generic [ref=e331]: Jayaram
+            - cell [ref=e332]
+            - cell "Request" [ref=e333]:
+              - generic [ref=e335]: Request
+            - cell "Dealer-Partn..." [ref=e336]:
+              - generic [ref=e338] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e339]:
+              - generic [ref=e341] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e342]:
+              - generic [ref=e343]: Pending Validation
+            - cell "-" [ref=e344]:
+              - generic [ref=e345]: "-"
+            - cell "-" [ref=e346]:
+              - generic [ref=e347]: "-"
+            - cell "Update" [ref=e348]:
+              - button "Update" [ref=e350] [cursor=pointer]:
+                - generic [ref=e351] [cursor=pointer]: Update
+          - row "FL15DAVA080 rs-352a3b BBT-368472 27-11-2025 0... Karan Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e352]:
+            - cell [ref=e353]:
+              - generic [ref=e356]:
+                - generic [ref=e357]: 󰄱
+                - checkbox [ref=e358] [cursor=pointer]
+            - cell "FL15DAVA080" [ref=e359]:
+              - generic [ref=e360]: FL15DAVA080
+            - cell "rs-352a3b" [ref=e361]:
+              - link "rs-352a3b" [ref=e363] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-368472" [ref=e364]:
+              - generic [ref=e366]: BBT-368472
+            - cell "27-11-2025 0..." [ref=e367]:
+              - generic [ref=e369] [cursor=pointer]: 27-11-2025 0...
+            - cell "Karan" [ref=e370]:
+              - generic [ref=e372]: Karan
+            - cell [ref=e373]
+            - cell "Request" [ref=e374]:
+              - generic [ref=e376]: Request
+            - cell "Dealer-Partn..." [ref=e377]:
+              - generic [ref=e379] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e380]:
+              - generic [ref=e382] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e383]:
+              - generic [ref=e384]: Pending Validation
+            - cell "-" [ref=e385]:
+              - generic [ref=e386]: "-"
+            - cell "-" [ref=e387]:
+              - generic [ref=e388]: "-"
+            - cell "Update" [ref=e389]:
+              - button "Update" [ref=e391] [cursor=pointer]:
+                - generic [ref=e392] [cursor=pointer]: Update
+          - row "FL15DAVA079 rs-f563ec BBT-791332 27-11-2025 0... Sanjana Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e393]:
+            - cell [ref=e394]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: 󰄱
+                - checkbox [ref=e399] [cursor=pointer]
+            - cell "FL15DAVA079" [ref=e400]:
+              - generic [ref=e401]: FL15DAVA079
+            - cell "rs-f563ec" [ref=e402]:
+              - link "rs-f563ec" [ref=e404] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-791332" [ref=e405]:
+              - generic [ref=e407]: BBT-791332
+            - cell "27-11-2025 0..." [ref=e408]:
+              - generic [ref=e410] [cursor=pointer]: 27-11-2025 0...
+            - cell "Sanjana" [ref=e411]:
+              - generic [ref=e413]: Sanjana
+            - cell [ref=e414]
+            - cell "Request" [ref=e415]:
+              - generic [ref=e417]: Request
+            - cell "Dealer-Partn..." [ref=e418]:
+              - generic [ref=e420] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e421]:
+              - generic [ref=e423] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e424]:
+              - generic [ref=e425]: Pending Validation
+            - cell "-" [ref=e426]:
+              - generic [ref=e427]: "-"
+            - cell "-" [ref=e428]:
+              - generic [ref=e429]: "-"
+            - cell "Update" [ref=e430]:
+              - button "Update" [ref=e432] [cursor=pointer]:
+                - generic [ref=e433] [cursor=pointer]: Update
+          - row "CRMF98765 rs-d16880 BBT-217181 27-11-2025 0... Sigma coolin... Request Dealer-Partn... Ashok Vihar ... Pending Validation - View Update" [ref=e434]:
+            - cell [ref=e435]:
+              - generic [ref=e438]:
+                - generic [ref=e439]: 󰄱
+                - checkbox [ref=e440] [cursor=pointer]
+            - cell "CRMF98765" [ref=e441]:
+              - generic [ref=e442]: CRMF98765
+            - cell "rs-d16880" [ref=e443]:
+              - link "rs-d16880" [ref=e445] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-217181" [ref=e446]:
+              - generic [ref=e448]: BBT-217181
+            - cell "27-11-2025 0..." [ref=e449]:
+              - generic [ref=e451] [cursor=pointer]: 27-11-2025 0...
+            - cell "Sigma coolin..." [ref=e452]:
+              - generic [ref=e454] [cursor=pointer]: Sigma coolin...
+            - cell [ref=e455]
+            - cell "Request" [ref=e456]:
+              - generic [ref=e458]: Request
+            - cell "Dealer-Partn..." [ref=e459]:
+              - generic [ref=e461] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e462]:
+              - generic [ref=e464] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e465]:
+              - generic [ref=e466]: Pending Validation
+            - cell "-" [ref=e467]:
+              - generic [ref=e468]: "-"
+            - cell "View" [ref=e469]:
+              - generic [ref=e472] [cursor=pointer]: View
+            - cell "Update" [ref=e473]:
+              - button "Update" [ref=e475] [cursor=pointer]:
+                - generic [ref=e476] [cursor=pointer]: Update
+          - row "CRMJHDF98765 rs-140028 BBT-206fe7 25-11-2025 1... Adithi elect... Request Dealer-Partn... 13, Amman Ku... Closed - Approved - View Update" [ref=e477]:
+            - cell [ref=e478]:
+              - generic [ref=e481]:
+                - generic [ref=e482]: 󰄱
+                - checkbox [ref=e483] [cursor=pointer]
+            - cell "CRMJHDF98765" [ref=e484]:
+              - generic [ref=e485]: CRMJHDF98765
+            - cell "rs-140028" [ref=e486]:
+              - link "rs-140028" [ref=e488] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-206fe7" [ref=e489]:
+              - generic [ref=e491]: BBT-206fe7
+            - cell "25-11-2025 1..." [ref=e492]:
+              - generic [ref=e494] [cursor=pointer]: 25-11-2025 1...
+            - cell "Adithi elect..." [ref=e495]:
+              - generic [ref=e497] [cursor=pointer]: Adithi elect...
+            - cell [ref=e498]
+            - cell "Request" [ref=e499]:
+              - generic [ref=e501]: Request
+            - cell "Dealer-Partn..." [ref=e502]:
+              - generic [ref=e504] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e505]:
+              - generic [ref=e507] [cursor=pointer]: 13, Amman Ku...
+            - cell "Closed - Approved" [ref=e508]:
+              - generic [ref=e509]: Closed - Approved
+            - cell "-" [ref=e510]:
+              - generic [ref=e511]: "-"
+            - cell "View" [ref=e512]:
+              - generic [ref=e515] [cursor=pointer]: View
+            - cell "Update" [ref=e516]:
+              - generic [ref=e517]:
+                - button "Update" [disabled]:
+                  - generic: Update
+          - row "CRMFJKJKGF8OIII rs-ad3888 BBT-fb349a 25-11-2025 1... Adithi elect... Request Dealer-Partn... 13, Amman Ku... Closed - Approved - View Update" [ref=e518]:
+            - cell [ref=e519]:
+              - generic [ref=e522]:
+                - generic [ref=e523]: 󰄱
+                - checkbox [ref=e524] [cursor=pointer]
+            - cell "CRMFJKJKGF8OIII" [ref=e525]:
+              - generic [ref=e526]: CRMFJKJKGF8OIII
+            - cell "rs-ad3888" [ref=e527]:
+              - link "rs-ad3888" [ref=e529] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-fb349a" [ref=e530]:
+              - generic [ref=e532]: BBT-fb349a
+            - cell "25-11-2025 1..." [ref=e533]:
+              - generic [ref=e535] [cursor=pointer]: 25-11-2025 1...
+            - cell "Adithi elect..." [ref=e536]:
+              - generic [ref=e538] [cursor=pointer]: Adithi elect...
+            - cell [ref=e539]
+            - cell "Request" [ref=e540]:
+              - generic [ref=e542]: Request
+            - cell "Dealer-Partn..." [ref=e543]:
+              - generic [ref=e545] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e546]:
+              - generic [ref=e548] [cursor=pointer]: 13, Amman Ku...
+            - cell "Closed - Approved" [ref=e549]:
+              - generic [ref=e550]: Closed - Approved
+            - cell "-" [ref=e551]:
+              - generic [ref=e552]: "-"
+            - cell "View" [ref=e553]:
+              - generic [ref=e556] [cursor=pointer]: View
+            - cell "Update" [ref=e557]:
+              - generic [ref=e558]:
+                - button "Update" [disabled]:
+                  - generic: Update
+          - row "CRMJKDF98765 rs-1d7981 BBT-8ed5d2 25-11-2025 1... Adithi elect... Request Dealer-Partn... 13, Amman Ku... In Process – Approved - View Update" [ref=e559]:
+            - cell [ref=e560]:
+              - generic [ref=e563]:
+                - generic [ref=e564]: 󰄱
+                - checkbox [ref=e565] [cursor=pointer]
+            - cell "CRMJKDF98765" [ref=e566]:
+              - generic [ref=e567]: CRMJKDF98765
+            - cell "rs-1d7981" [ref=e568]:
+              - link "rs-1d7981" [ref=e570] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-8ed5d2" [ref=e571]:
+              - generic [ref=e573]: BBT-8ed5d2
+            - cell "25-11-2025 1..." [ref=e574]:
+              - generic [ref=e576] [cursor=pointer]: 25-11-2025 1...
+            - cell "Adithi elect..." [ref=e577]:
+              - generic [ref=e579] [cursor=pointer]: Adithi elect...
+            - cell [ref=e580]
+            - cell "Request" [ref=e581]:
+              - generic [ref=e583]: Request
+            - cell "Dealer-Partn..." [ref=e584]:
+              - generic [ref=e586] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e587]:
+              - generic [ref=e589] [cursor=pointer]: 13, Amman Ku...
+            - cell "In Process – Approved" [ref=e590]:
+              - generic [ref=e591]: In Process – Approved
+            - cell "-" [ref=e592]:
+              - generic [ref=e593]: "-"
+            - cell "View" [ref=e594]:
+              - generic [ref=e597] [cursor=pointer]: View
+            - cell "Update" [ref=e598]:
+              - button "Update" [ref=e600] [cursor=pointer]:
+                - generic [ref=e601] [cursor=pointer]: Update
+          - row "CRMAZ30 rs-266692 BBT-de2f34 10-09-2025 0... Siddhi elect... Request Dealer-Partn... 45/B Green R... In Process – Approved - View Update" [ref=e602]:
+            - cell [ref=e603]:
+              - generic [ref=e606]:
+                - generic [ref=e607]: 󰄱
+                - checkbox [ref=e608] [cursor=pointer]
+            - cell "CRMAZ30" [ref=e609]:
+              - generic [ref=e610]: CRMAZ30
+            - cell "rs-266692" [ref=e611]:
+              - link "rs-266692" [ref=e613] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-de2f34" [ref=e614]:
+              - generic [ref=e616]: BBT-de2f34
+            - cell "10-09-2025 0..." [ref=e617]:
+              - generic [ref=e619] [cursor=pointer]: 10-09-2025 0...
+            - cell "Siddhi elect..." [ref=e620]:
+              - generic [ref=e622] [cursor=pointer]: Siddhi elect...
+            - cell [ref=e623]
+            - cell "Request" [ref=e624]:
+              - generic [ref=e626]: Request
+            - cell "Dealer-Partn..." [ref=e627]:
+              - generic [ref=e629] [cursor=pointer]: Dealer-Partn...
+            - cell "45/B Green R..." [ref=e630]:
+              - generic [ref=e632] [cursor=pointer]: 45/B Green R...
+            - cell "In Process – Approved" [ref=e633]:
+              - generic [ref=e634]: In Process – Approved
+            - cell "-" [ref=e635]:
+              - generic [ref=e636]: "-"
+            - cell "View" [ref=e637]:
+              - generic [ref=e640] [cursor=pointer]: View
+            - cell "Update" [ref=e641]:
+              - button "Update" [ref=e643] [cursor=pointer]:
+                - generic [ref=e644] [cursor=pointer]: Update
+          - row "CRMDF98765 rs-8b40cd BBT-a22335 27-11-2025 1... Girias solut... Request Dealer-Partn... Phase I, 1st... Pending Validation - View Update" [ref=e645]:
+            - cell [ref=e646]:
+              - generic [ref=e649]:
+                - generic [ref=e650]: 󰄱
+                - checkbox [ref=e651] [cursor=pointer]
+            - cell "CRMDF98765" [ref=e652]:
+              - generic [ref=e653]: CRMDF98765
+            - cell "rs-8b40cd" [ref=e654]:
+              - link "rs-8b40cd" [ref=e656] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-a22335" [ref=e657]:
+              - generic [ref=e659]: BBT-a22335
+            - cell "27-11-2025 1..." [ref=e660]:
+              - generic [ref=e662] [cursor=pointer]: 27-11-2025 1...
+            - cell "Girias solut..." [ref=e663]:
+              - generic [ref=e665] [cursor=pointer]: Girias solut...
+            - cell [ref=e666]
+            - cell "Request" [ref=e667]:
+              - generic [ref=e669]: Request
+            - cell "Dealer-Partn..." [ref=e670]:
+              - generic [ref=e672] [cursor=pointer]: Dealer-Partn...
+            - cell "Phase I, 1st..." [ref=e673]:
+              - generic [ref=e675] [cursor=pointer]: Phase I, 1st...
+            - cell "Pending Validation" [ref=e676]:
+              - generic [ref=e677]: Pending Validation
+            - cell "-" [ref=e678]:
+              - generic [ref=e679]: "-"
+            - cell "View" [ref=e680]:
+              - generic [ref=e683] [cursor=pointer]: View
+            - cell "Update" [ref=e684]:
+              - button "Update" [ref=e686] [cursor=pointer]:
+                - generic [ref=e687] [cursor=pointer]: Update
+          - row "CRMJKSDF987 rs-fa1a90 BBT-12b828 27-11-2025 1... Sangeetha mo... Request Dealer-Partn... 123 Maple Av... Pending Validation - View Update" [ref=e688]:
+            - cell [ref=e689]:
+              - generic [ref=e692]:
+                - generic [ref=e693]: 󰄱
+                - checkbox [ref=e694] [cursor=pointer]
+            - cell "CRMJKSDF987" [ref=e695]:
+              - generic [ref=e696]: CRMJKSDF987
+            - cell "rs-fa1a90" [ref=e697]:
+              - link "rs-fa1a90" [ref=e699] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-12b828" [ref=e700]:
+              - generic [ref=e702]: BBT-12b828
+            - cell "27-11-2025 1..." [ref=e703]:
+              - generic [ref=e705] [cursor=pointer]: 27-11-2025 1...
+            - cell "Sangeetha mo..." [ref=e706]:
+              - generic [ref=e708] [cursor=pointer]: Sangeetha mo...
+            - cell [ref=e709]
+            - cell "Request" [ref=e710]:
+              - generic [ref=e712]: Request
+            - cell "Dealer-Partn..." [ref=e713]:
+              - generic [ref=e715] [cursor=pointer]: Dealer-Partn...
+            - cell "123 Maple Av..." [ref=e716]:
+              - generic [ref=e718] [cursor=pointer]: 123 Maple Av...
+            - cell "Pending Validation" [ref=e719]:
+              - generic [ref=e720]: Pending Validation
+            - cell "-" [ref=e721]:
+              - generic [ref=e722]: "-"
+            - cell "View" [ref=e723]:
+              - generic [ref=e726] [cursor=pointer]: View
+            - cell "Update" [ref=e727]:
+              - button "Update" [ref=e729] [cursor=pointer]:
+                - generic [ref=e730] [cursor=pointer]: Update
+          - row "CRF5432 rs-993e8f BBT-6332b1 27-11-2025 1... Sangeetha mo... Request Dealer-Partn... 123 Maple Av... Pending Validation - View Update" [ref=e731]:
+            - cell [ref=e732]:
+              - generic [ref=e735]:
+                - generic [ref=e736]: 󰄱
+                - checkbox [ref=e737] [cursor=pointer]
+            - cell "CRF5432" [ref=e738]:
+              - generic [ref=e739]: CRF5432
+            - cell "rs-993e8f" [ref=e740]:
+              - link "rs-993e8f" [ref=e742] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-6332b1" [ref=e743]:
+              - generic [ref=e745]: BBT-6332b1
+            - cell "27-11-2025 1..." [ref=e746]:
+              - generic [ref=e748] [cursor=pointer]: 27-11-2025 1...
+            - cell "Sangeetha mo..." [ref=e749]:
+              - generic [ref=e751] [cursor=pointer]: Sangeetha mo...
+            - cell [ref=e752]
+            - cell "Request" [ref=e753]:
+              - generic [ref=e755]: Request
+            - cell "Dealer-Partn..." [ref=e756]:
+              - generic [ref=e758] [cursor=pointer]: Dealer-Partn...
+            - cell "123 Maple Av..." [ref=e759]:
+              - generic [ref=e761] [cursor=pointer]: 123 Maple Av...
+            - cell "Pending Validation" [ref=e762]:
+              - generic [ref=e763]: Pending Validation
+            - cell "-" [ref=e764]:
+              - generic [ref=e765]: "-"
+            - cell "View" [ref=e766]:
+              - generic [ref=e769] [cursor=pointer]: View
+            - cell "Update" [ref=e770]:
+              - button "Update" [ref=e772] [cursor=pointer]:
+                - generic [ref=e773] [cursor=pointer]: Update
+          - row "CRNDFJSDJKI43 rs-cf1c1a BBT-cfc7cd 25-11-2025 1... Adithi elect... Request Dealer-Partn... 13, Amman Ku... Pending Validation - View Update" [ref=e774]:
+            - cell [ref=e775]:
+              - generic [ref=e778]:
+                - generic [ref=e779]: 󰄱
+                - checkbox [ref=e780] [cursor=pointer]
+            - cell "CRNDFJSDJKI43" [ref=e781]:
+              - generic [ref=e782]: CRNDFJSDJKI43
+            - cell "rs-cf1c1a" [ref=e783]:
+              - link "rs-cf1c1a" [ref=e785] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-cfc7cd" [ref=e786]:
+              - generic [ref=e788]: BBT-cfc7cd
+            - cell "25-11-2025 1..." [ref=e789]:
+              - generic [ref=e791] [cursor=pointer]: 25-11-2025 1...
+            - cell "Adithi elect..." [ref=e792]:
+              - generic [ref=e794] [cursor=pointer]: Adithi elect...
+            - cell [ref=e795]
+            - cell "Request" [ref=e796]:
+              - generic [ref=e798]: Request
+            - cell "Dealer-Partn..." [ref=e799]:
+              - generic [ref=e801] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e802]:
+              - generic [ref=e804] [cursor=pointer]: 13, Amman Ku...
+            - cell "Pending Validation" [ref=e805]:
+              - generic [ref=e806]: Pending Validation
+            - cell "-" [ref=e807]:
+              - generic [ref=e808]: "-"
+            - cell "View" [ref=e809]:
+              - generic [ref=e812] [cursor=pointer]: View
+            - cell "Update" [ref=e813]:
+              - button "Update" [ref=e815] [cursor=pointer]:
+                - generic [ref=e816] [cursor=pointer]: Update
+          - row "TEST8 rs-78d679 BBT-630933 25-11-2025 0... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e817]:
+            - cell [ref=e818]:
+              - generic [ref=e821]:
+                - generic [ref=e822]: 󰄱
+                - checkbox [ref=e823] [cursor=pointer]
+            - cell "TEST8" [ref=e824]:
+              - generic [ref=e825]: TEST8
+            - cell "rs-78d679" [ref=e826]:
+              - link "rs-78d679" [ref=e828] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-630933" [ref=e829]:
+              - generic [ref=e831]: BBT-630933
+            - cell "25-11-2025 0..." [ref=e832]:
+              - generic [ref=e834] [cursor=pointer]: 25-11-2025 0...
+            - cell "PRIZM ENTERP..." [ref=e835]:
+              - generic [ref=e837] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e838]
+            - cell "Request" [ref=e839]:
+              - generic [ref=e841]: Request
+            - cell "Warranty Cla..." [ref=e842]:
+              - generic [ref=e844] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e845]:
+              - generic [ref=e846]: "-"
+            - cell "Pending Information" [ref=e847]:
+              - generic [ref=e848]: Pending Information
+            - cell "-" [ref=e849]:
+              - generic [ref=e850]: "-"
+            - cell "-" [ref=e851]:
+              - generic [ref=e852]: "-"
+            - cell "Update" [ref=e853]:
+              - button "Update" [ref=e855] [cursor=pointer]:
+                - generic [ref=e856] [cursor=pointer]: Update
+          - row "TEST7 rs-3aa8da BBT-224700 25-11-2025 0... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e857]:
+            - cell [ref=e858]:
+              - generic [ref=e861]:
+                - generic [ref=e862]: 󰄱
+                - checkbox [ref=e863] [cursor=pointer]
+            - cell "TEST7" [ref=e864]:
+              - generic [ref=e865]: TEST7
+            - cell "rs-3aa8da" [ref=e866]:
+              - link "rs-3aa8da" [ref=e868] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-224700" [ref=e869]:
+              - generic [ref=e871]: BBT-224700
+            - cell "25-11-2025 0..." [ref=e872]:
+              - generic [ref=e874] [cursor=pointer]: 25-11-2025 0...
+            - cell "PRIZM ENTERP..." [ref=e875]:
+              - generic [ref=e877] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e878]
+            - cell "Request" [ref=e879]:
+              - generic [ref=e881]: Request
+            - cell "Warranty Cla..." [ref=e882]:
+              - generic [ref=e884] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e885]:
+              - generic [ref=e886]: "-"
+            - cell "Pending Information" [ref=e887]:
+              - generic [ref=e888]: Pending Information
+            - cell "-" [ref=e889]:
+              - generic [ref=e890]: "-"
+            - cell "-" [ref=e891]:
+              - generic [ref=e892]: "-"
+            - cell "Update" [ref=e893]:
+              - button "Update" [ref=e895] [cursor=pointer]:
+                - generic [ref=e896] [cursor=pointer]: Update
+          - row "TEST6 rs-b4ed69 BBT-555019 25-11-2025 0... BIPUL RATHOR Request Dealer-Partn... - Pending Information - - Update" [ref=e897]:
+            - cell [ref=e898]:
+              - generic [ref=e901]:
+                - generic [ref=e902]: 󰄱
+                - checkbox [ref=e903] [cursor=pointer]
+            - cell "TEST6" [ref=e904]:
+              - generic [ref=e905]: TEST6
+            - cell "rs-b4ed69" [ref=e906]:
+              - link "rs-b4ed69" [ref=e908] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-555019" [ref=e909]:
+              - generic [ref=e911]: BBT-555019
+            - cell "25-11-2025 0..." [ref=e912]:
+              - generic [ref=e914] [cursor=pointer]: 25-11-2025 0...
+            - cell "BIPUL RATHOR" [ref=e915]:
+              - generic [ref=e917]: BIPUL RATHOR
+            - cell [ref=e918]
+            - cell "Request" [ref=e919]:
+              - generic [ref=e921]: Request
+            - cell "Dealer-Partn..." [ref=e922]:
+              - generic [ref=e924] [cursor=pointer]: Dealer-Partn...
+            - cell "-" [ref=e925]:
+              - generic [ref=e926]: "-"
+            - cell "Pending Information" [ref=e927]:
+              - generic [ref=e928]: Pending Information
+            - cell "-" [ref=e929]:
+              - generic [ref=e930]: "-"
+            - cell "-" [ref=e931]:
+              - generic [ref=e932]: "-"
+            - cell "Update" [ref=e933]:
+              - button "Update" [ref=e935] [cursor=pointer]:
+                - generic [ref=e936] [cursor=pointer]: Update
+          - row "TEST5 rs-25d73f BBT-50083 25-11-2025 0... PRIZM ENTERP... Request Dealer-Partn... - Pending Information - - Update" [ref=e937]:
+            - cell [ref=e938]:
+              - generic [ref=e941]:
+                - generic [ref=e942]: 󰄱
+                - checkbox [ref=e943] [cursor=pointer]
+            - cell "TEST5" [ref=e944]:
+              - generic [ref=e945]: TEST5
+            - cell "rs-25d73f" [ref=e946]:
+              - link "rs-25d73f" [ref=e948] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-50083" [ref=e949]:
+              - generic [ref=e951]: BBT-50083
+            - cell "25-11-2025 0..." [ref=e952]:
+              - generic [ref=e954] [cursor=pointer]: 25-11-2025 0...
+            - cell "PRIZM ENTERP..." [ref=e955]:
+              - generic [ref=e957] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e958]
+            - cell "Request" [ref=e959]:
+              - generic [ref=e961]: Request
+            - cell "Dealer-Partn..." [ref=e962]:
+              - generic [ref=e964] [cursor=pointer]: Dealer-Partn...
+            - cell "-" [ref=e965]:
+              - generic [ref=e966]: "-"
+            - cell "Pending Information" [ref=e967]:
+              - generic [ref=e968]: Pending Information
+            - cell "-" [ref=e969]:
+              - generic [ref=e970]: "-"
+            - cell "-" [ref=e971]:
+              - generic [ref=e972]: "-"
+            - cell "Update" [ref=e973]:
+              - button "Update" [ref=e975] [cursor=pointer]:
+                - generic [ref=e976] [cursor=pointer]: Update
+          - row "TEST4 rs-f44cd0 BBT-932202 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e977]:
+            - cell [ref=e978]:
+              - generic [ref=e981]:
+                - generic [ref=e982]: 󰄱
+                - checkbox [ref=e983] [cursor=pointer]
+            - cell "TEST4" [ref=e984]:
+              - generic [ref=e985]: TEST4
+            - cell "rs-f44cd0" [ref=e986]:
+              - link "rs-f44cd0" [ref=e988] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-932202" [ref=e989]:
+              - generic [ref=e991]: BBT-932202
+            - cell "25-11-2025 1..." [ref=e992]:
+              - generic [ref=e994] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e995]:
+              - generic [ref=e997] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e998]
+            - cell "Request" [ref=e999]:
+              - generic [ref=e1001]: Request
+            - cell "Warranty Cla..." [ref=e1002]:
+              - generic [ref=e1004] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1005]:
+              - generic [ref=e1006]: "-"
+            - cell "Pending Information" [ref=e1007]:
+              - generic [ref=e1008]: Pending Information
+            - cell "-" [ref=e1009]:
+              - generic [ref=e1010]: "-"
+            - cell "-" [ref=e1011]:
+              - generic [ref=e1012]: "-"
+            - cell "Update" [ref=e1013]:
+              - button "Update" [ref=e1015] [cursor=pointer]:
+                - generic [ref=e1016] [cursor=pointer]: Update
+          - row "TEST3 rs-7d013e BBT-104504 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e1017]:
+            - cell [ref=e1018]:
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: 󰄱
+                - checkbox [ref=e1023] [cursor=pointer]
+            - cell "TEST3" [ref=e1024]:
+              - generic [ref=e1025]: TEST3
+            - cell "rs-7d013e" [ref=e1026]:
+              - link "rs-7d013e" [ref=e1028] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-104504" [ref=e1029]:
+              - generic [ref=e1031]: BBT-104504
+            - cell "25-11-2025 1..." [ref=e1032]:
+              - generic [ref=e1034] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e1035]:
+              - generic [ref=e1037] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e1038]
+            - cell "Request" [ref=e1039]:
+              - generic [ref=e1041]: Request
+            - cell "Warranty Cla..." [ref=e1042]:
+              - generic [ref=e1044] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1045]:
+              - generic [ref=e1046]: "-"
+            - cell "Pending Information" [ref=e1047]:
+              - generic [ref=e1048]: Pending Information
+            - cell "-" [ref=e1049]:
+              - generic [ref=e1050]: "-"
+            - cell "-" [ref=e1051]:
+              - generic [ref=e1052]: "-"
+            - cell "Update" [ref=e1053]:
+              - button "Update" [ref=e1055] [cursor=pointer]:
+                - generic [ref=e1056] [cursor=pointer]: Update
+          - row "TEST2 rs-85509c BBT-191093 25-11-2025 1... BIPUL RATHOR Request Warranty Cla... - Pending Information - - Update" [ref=e1057]:
+            - cell [ref=e1058]:
+              - generic [ref=e1061]:
+                - generic [ref=e1062]: 󰄱
+                - checkbox [ref=e1063] [cursor=pointer]
+            - cell "TEST2" [ref=e1064]:
+              - generic [ref=e1065]: TEST2
+            - cell "rs-85509c" [ref=e1066]:
+              - link "rs-85509c" [ref=e1068] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-191093" [ref=e1069]:
+              - generic [ref=e1071]: BBT-191093
+            - cell "25-11-2025 1..." [ref=e1072]:
+              - generic [ref=e1074] [cursor=pointer]: 25-11-2025 1...
+            - cell "BIPUL RATHOR" [ref=e1075]:
+              - generic [ref=e1077]: BIPUL RATHOR
+            - cell [ref=e1078]
+            - cell "Request" [ref=e1079]:
+              - generic [ref=e1081]: Request
+            - cell "Warranty Cla..." [ref=e1082]:
+              - generic [ref=e1084] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1085]:
+              - generic [ref=e1086]: "-"
+            - cell "Pending Information" [ref=e1087]:
+              - generic [ref=e1088]: Pending Information
+            - cell "-" [ref=e1089]:
+              - generic [ref=e1090]: "-"
+            - cell "-" [ref=e1091]:
+              - generic [ref=e1092]: "-"
+            - cell "Update" [ref=e1093]:
+              - button "Update" [ref=e1095] [cursor=pointer]:
+                - generic [ref=e1096] [cursor=pointer]: Update
+          - row "TEST1 rs-c9339c BBT-651916 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e1097]:
+            - cell [ref=e1098]:
+              - generic [ref=e1101]:
+                - generic [ref=e1102]: 󰄱
+                - checkbox [ref=e1103] [cursor=pointer]
+            - cell "TEST1" [ref=e1104]:
+              - generic [ref=e1105]: TEST1
+            - cell "rs-c9339c" [ref=e1106]:
+              - link "rs-c9339c" [ref=e1108] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-651916" [ref=e1109]:
+              - generic [ref=e1111]: BBT-651916
+            - cell "25-11-2025 1..." [ref=e1112]:
+              - generic [ref=e1114] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e1115]:
+              - generic [ref=e1117] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e1118]
+            - cell "Request" [ref=e1119]:
+              - generic [ref=e1121]: Request
+            - cell "Warranty Cla..." [ref=e1122]:
+              - generic [ref=e1124] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1125]:
+              - generic [ref=e1126]: "-"
+            - cell "Pending Information" [ref=e1127]:
+              - generic [ref=e1128]: Pending Information
+            - cell "-" [ref=e1129]:
+              - generic [ref=e1130]: "-"
+            - cell "-" [ref=e1131]:
+              - generic [ref=e1132]: "-"
+            - cell "Update" [ref=e1133]:
+              - button "Update" [ref=e1135] [cursor=pointer]:
+                - generic [ref=e1136] [cursor=pointer]: Update
+          - row "CMB25060103470 rs-c26492 BBT-372228 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e1137]:
+            - cell [ref=e1138]:
+              - generic [ref=e1141]:
+                - generic [ref=e1142]: 󰄱
+                - checkbox [ref=e1143] [cursor=pointer]
+            - cell "CMB25060103470" [ref=e1144]:
+              - generic [ref=e1145]: CMB25060103470
+            - cell "rs-c26492" [ref=e1146]:
+              - link "rs-c26492" [ref=e1148] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-372228" [ref=e1149]:
+              - generic [ref=e1151]: BBT-372228
+            - cell "25-11-2025 1..." [ref=e1152]:
+              - generic [ref=e1154] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e1155]:
+              - generic [ref=e1157] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e1158]
+            - cell "Request" [ref=e1159]:
+              - generic [ref=e1161]: Request
+            - cell "Warranty Cla..." [ref=e1162]:
+              - generic [ref=e1164] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1165]:
+              - generic [ref=e1166]: "-"
+            - cell "Pending Information" [ref=e1167]:
+              - generic [ref=e1168]: Pending Information
+            - cell "-" [ref=e1169]:
+              - generic [ref=e1170]: "-"
+            - cell "-" [ref=e1171]:
+              - generic [ref=e1172]: "-"
+            - cell "Update" [ref=e1173]:
+              - button "Update" [ref=e1175] [cursor=pointer]:
+                - generic [ref=e1176] [cursor=pointer]: Update
+          - row "CMB25062109412 rs-94dc22 BBT-257435 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e1177]:
+            - cell [ref=e1178]:
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: 󰄱
+                - checkbox [ref=e1183] [cursor=pointer]
+            - cell "CMB25062109412" [ref=e1184]:
+              - generic [ref=e1185]: CMB25062109412
+            - cell "rs-94dc22" [ref=e1186]:
+              - link "rs-94dc22" [ref=e1188] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-257435" [ref=e1189]:
+              - generic [ref=e1191]: BBT-257435
+            - cell "25-11-2025 1..." [ref=e1192]:
+              - generic [ref=e1194] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e1195]:
+              - generic [ref=e1197] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e1198]
+            - cell "Request" [ref=e1199]:
+              - generic [ref=e1201]: Request
+            - cell "Warranty Cla..." [ref=e1202]:
+              - generic [ref=e1204] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1205]:
+              - generic [ref=e1206]: "-"
+            - cell "Pending Information" [ref=e1207]:
+              - generic [ref=e1208]: Pending Information
+            - cell "-" [ref=e1209]:
+              - generic [ref=e1210]: "-"
+            - cell "-" [ref=e1211]:
+              - generic [ref=e1212]: "-"
+            - cell "Update" [ref=e1213]:
+              - button "Update" [ref=e1215] [cursor=pointer]:
+                - generic [ref=e1216] [cursor=pointer]: Update
+          - row "CMB25071702987 rs-d4a0fc BBT-271746 25-11-2025 1... BIPUL RATHOR Request Warranty Cla... - Pending Information - - Update" [ref=e1217]:
+            - cell [ref=e1218]:
+              - generic [ref=e1221]:
+                - generic [ref=e1222]: 󰄱
+                - checkbox [ref=e1223] [cursor=pointer]
+            - cell "CMB25071702987" [ref=e1224]:
+              - generic [ref=e1225]: CMB25071702987
+            - cell "rs-d4a0fc" [ref=e1226]:
+              - link "rs-d4a0fc" [ref=e1228] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-271746" [ref=e1229]:
+              - generic [ref=e1231]: BBT-271746
+            - cell "25-11-2025 1..." [ref=e1232]:
+              - generic [ref=e1234] [cursor=pointer]: 25-11-2025 1...
+            - cell "BIPUL RATHOR" [ref=e1235]:
+              - generic [ref=e1237]: BIPUL RATHOR
+            - cell [ref=e1238]
+            - cell "Request" [ref=e1239]:
+              - generic [ref=e1241]: Request
+            - cell "Warranty Cla..." [ref=e1242]:
+              - generic [ref=e1244] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1245]:
+              - generic [ref=e1246]: "-"
+            - cell "Pending Information" [ref=e1247]:
+              - generic [ref=e1248]: Pending Information
+            - cell "-" [ref=e1249]:
+              - generic [ref=e1250]: "-"
+            - cell "-" [ref=e1251]:
+              - generic [ref=e1252]: "-"
+            - cell "Update" [ref=e1253]:
+              - button "Update" [ref=e1255] [cursor=pointer]:
+                - generic [ref=e1256] [cursor=pointer]: Update
+          - row "CMB25032701209 rs-f469b0 BBT-890386 25-11-2025 1... PRIZM ENTERP... Request Warranty Cla... - Pending Information - - Update" [ref=e1257]:
+            - cell [ref=e1258]:
+              - generic [ref=e1261]:
+                - generic [ref=e1262]: 󰄱
+                - checkbox [ref=e1263] [cursor=pointer]
+            - cell "CMB25032701209" [ref=e1264]:
+              - generic [ref=e1265]: CMB25032701209
+            - cell "rs-f469b0" [ref=e1266]:
+              - link "rs-f469b0" [ref=e1268] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-890386" [ref=e1269]:
+              - generic [ref=e1271]: BBT-890386
+            - cell "25-11-2025 1..." [ref=e1272]:
+              - generic [ref=e1274] [cursor=pointer]: 25-11-2025 1...
+            - cell "PRIZM ENTERP..." [ref=e1275]:
+              - generic [ref=e1277] [cursor=pointer]: PRIZM ENTERP...
+            - cell [ref=e1278]
+            - cell "Request" [ref=e1279]:
+              - generic [ref=e1281]: Request
+            - cell "Warranty Cla..." [ref=e1282]:
+              - generic [ref=e1284] [cursor=pointer]: Warranty Cla...
+            - cell "-" [ref=e1285]:
+              - generic [ref=e1286]: "-"
+            - cell "Pending Information" [ref=e1287]:
+              - generic [ref=e1288]: Pending Information
+            - cell "-" [ref=e1289]:
+              - generic [ref=e1290]: "-"
+            - cell "-" [ref=e1291]:
+              - generic [ref=e1292]: "-"
+            - cell "Update" [ref=e1293]:
+              - button "Update" [ref=e1295] [cursor=pointer]:
+                - generic [ref=e1296] [cursor=pointer]: Update
+          - row "CRMFGD78538 rs-cd598c BBT-dc1a05 25-11-2025 1... Adithi elect... Request Dealer-Partn... 13, Amman Ku... Pending Validation - View Update" [ref=e1297]:
+            - cell [ref=e1298]:
+              - generic [ref=e1301]:
+                - generic [ref=e1302]: 󰄱
+                - checkbox [ref=e1303] [cursor=pointer]
+            - cell "CRMFGD78538" [ref=e1304]:
+              - generic [ref=e1305]: CRMFGD78538
+            - cell "rs-cd598c" [ref=e1306]:
+              - link "rs-cd598c" [ref=e1308] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-dc1a05" [ref=e1309]:
+              - generic [ref=e1311]: BBT-dc1a05
+            - cell "25-11-2025 1..." [ref=e1312]:
+              - generic [ref=e1314] [cursor=pointer]: 25-11-2025 1...
+            - cell "Adithi elect..." [ref=e1315]:
+              - generic [ref=e1317] [cursor=pointer]: Adithi elect...
+            - cell [ref=e1318]
+            - cell "Request" [ref=e1319]:
+              - generic [ref=e1321]: Request
+            - cell "Dealer-Partn..." [ref=e1322]:
+              - generic [ref=e1324] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e1325]:
+              - generic [ref=e1327] [cursor=pointer]: 13, Amman Ku...
+            - cell "Pending Validation" [ref=e1328]:
+              - generic [ref=e1329]: Pending Validation
+            - cell "-" [ref=e1330]:
+              - generic [ref=e1331]: "-"
+            - cell "View" [ref=e1332]:
+              - generic [ref=e1335] [cursor=pointer]: View
+            - cell "Update" [ref=e1336]:
+              - button "Update" [ref=e1338] [cursor=pointer]:
+                - generic [ref=e1339] [cursor=pointer]: Update
+          - row "FL15DAVA072 rs-f8fd92 BBT-267914 24-11-2025 1... Jagadish Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1340]:
+            - cell [ref=e1341]:
+              - generic [ref=e1344]:
+                - generic [ref=e1345]: 󰄱
+                - checkbox [ref=e1346] [cursor=pointer]
+            - cell "FL15DAVA072" [ref=e1347]:
+              - generic [ref=e1348]: FL15DAVA072
+            - cell "rs-f8fd92" [ref=e1349]:
+              - link "rs-f8fd92" [ref=e1351] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-267914" [ref=e1352]:
+              - generic [ref=e1354]: BBT-267914
+            - cell "24-11-2025 1..." [ref=e1355]:
+              - generic [ref=e1357] [cursor=pointer]: 24-11-2025 1...
+            - cell "Jagadish" [ref=e1358]:
+              - generic [ref=e1360]: Jagadish
+            - cell [ref=e1361]
+            - cell "Request" [ref=e1362]:
+              - generic [ref=e1364]: Request
+            - cell "Dealer-Partn..." [ref=e1365]:
+              - generic [ref=e1367] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1368]:
+              - generic [ref=e1370] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1371]:
+              - generic [ref=e1372]: Pending Validation
+            - cell "-" [ref=e1373]:
+              - generic [ref=e1374]: "-"
+            - cell "-" [ref=e1375]:
+              - generic [ref=e1376]: "-"
+            - cell "Update" [ref=e1377]:
+              - button "Update" [ref=e1379] [cursor=pointer]:
+                - generic [ref=e1380] [cursor=pointer]: Update
+          - row "FL15DAVA071 rs-a8f894 BBT-665271 24-11-2025 1... Dava Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1381]:
+            - cell [ref=e1382]:
+              - generic [ref=e1385]:
+                - generic [ref=e1386]: 󰄱
+                - checkbox [ref=e1387] [cursor=pointer]
+            - cell "FL15DAVA071" [ref=e1388]:
+              - generic [ref=e1389]: FL15DAVA071
+            - cell "rs-a8f894" [ref=e1390]:
+              - link "rs-a8f894" [ref=e1392] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-665271" [ref=e1393]:
+              - generic [ref=e1395]: BBT-665271
+            - cell "24-11-2025 1..." [ref=e1396]:
+              - generic [ref=e1398] [cursor=pointer]: 24-11-2025 1...
+            - cell "Dava" [ref=e1399]:
+              - generic [ref=e1401]: Dava
+            - cell [ref=e1402]
+            - cell "Request" [ref=e1403]:
+              - generic [ref=e1405]: Request
+            - cell "Dealer-Partn..." [ref=e1406]:
+              - generic [ref=e1408] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1409]:
+              - generic [ref=e1411] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1412]:
+              - generic [ref=e1413]: Pending Validation
+            - cell "-" [ref=e1414]:
+              - generic [ref=e1415]: "-"
+            - cell "-" [ref=e1416]:
+              - generic [ref=e1417]: "-"
+            - cell "Update" [ref=e1418]:
+              - button "Update" [ref=e1420] [cursor=pointer]:
+                - generic [ref=e1421] [cursor=pointer]: Update
+          - row "FL15DAVA070 rs-2e2d64 BBT-195340 24-11-2025 1... Gajendra Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1422]:
+            - cell [ref=e1423]:
+              - generic [ref=e1426]:
+                - generic [ref=e1427]: 󰄱
+                - checkbox [ref=e1428] [cursor=pointer]
+            - cell "FL15DAVA070" [ref=e1429]:
+              - generic [ref=e1430]: FL15DAVA070
+            - cell "rs-2e2d64" [ref=e1431]:
+              - link "rs-2e2d64" [ref=e1433] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-195340" [ref=e1434]:
+              - generic [ref=e1436]: BBT-195340
+            - cell "24-11-2025 1..." [ref=e1437]:
+              - generic [ref=e1439] [cursor=pointer]: 24-11-2025 1...
+            - cell "Gajendra" [ref=e1440]:
+              - generic [ref=e1442]: Gajendra
+            - cell [ref=e1443]
+            - cell "Request" [ref=e1444]:
+              - generic [ref=e1446]: Request
+            - cell "Dealer-Partn..." [ref=e1447]:
+              - generic [ref=e1449] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1450]:
+              - generic [ref=e1452] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1453]:
+              - generic [ref=e1454]: Pending Validation
+            - cell "-" [ref=e1455]:
+              - generic [ref=e1456]: "-"
+            - cell "-" [ref=e1457]:
+              - generic [ref=e1458]: "-"
+            - cell "Update" [ref=e1459]:
+              - button "Update" [ref=e1461] [cursor=pointer]:
+                - generic [ref=e1462] [cursor=pointer]: Update
+          - row "FL15DAVA069 rs-f7e581 BBT-256867 24-11-2025 1... Jayaram Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1463]:
+            - cell [ref=e1464]:
+              - generic [ref=e1467]:
+                - generic [ref=e1468]: 󰄱
+                - checkbox [ref=e1469] [cursor=pointer]
+            - cell "FL15DAVA069" [ref=e1470]:
+              - generic [ref=e1471]: FL15DAVA069
+            - cell "rs-f7e581" [ref=e1472]:
+              - link "rs-f7e581" [ref=e1474] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-256867" [ref=e1475]:
+              - generic [ref=e1477]: BBT-256867
+            - cell "24-11-2025 1..." [ref=e1478]:
+              - generic [ref=e1480] [cursor=pointer]: 24-11-2025 1...
+            - cell "Jayaram" [ref=e1481]:
+              - generic [ref=e1483]: Jayaram
+            - cell [ref=e1484]
+            - cell "Request" [ref=e1485]:
+              - generic [ref=e1487]: Request
+            - cell "Dealer-Partn..." [ref=e1488]:
+              - generic [ref=e1490] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1491]:
+              - generic [ref=e1493] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1494]:
+              - generic [ref=e1495]: Pending Validation
+            - cell "-" [ref=e1496]:
+              - generic [ref=e1497]: "-"
+            - cell "-" [ref=e1498]:
+              - generic [ref=e1499]: "-"
+            - cell "Update" [ref=e1500]:
+              - button "Update" [ref=e1502] [cursor=pointer]:
+                - generic [ref=e1503] [cursor=pointer]: Update
+          - row "FL15DAVA068 rs-51961e BBT-550246 24-11-2025 1... Karan Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1504]:
+            - cell [ref=e1505]:
+              - generic [ref=e1508]:
+                - generic [ref=e1509]: 󰄱
+                - checkbox [ref=e1510] [cursor=pointer]
+            - cell "FL15DAVA068" [ref=e1511]:
+              - generic [ref=e1512]: FL15DAVA068
+            - cell "rs-51961e" [ref=e1513]:
+              - link "rs-51961e" [ref=e1515] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-550246" [ref=e1516]:
+              - generic [ref=e1518]: BBT-550246
+            - cell "24-11-2025 1..." [ref=e1519]:
+              - generic [ref=e1521] [cursor=pointer]: 24-11-2025 1...
+            - cell "Karan" [ref=e1522]:
+              - generic [ref=e1524]: Karan
+            - cell [ref=e1525]
+            - cell "Request" [ref=e1526]:
+              - generic [ref=e1528]: Request
+            - cell "Dealer-Partn..." [ref=e1529]:
+              - generic [ref=e1531] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1532]:
+              - generic [ref=e1534] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1535]:
+              - generic [ref=e1536]: Pending Validation
+            - cell "-" [ref=e1537]:
+              - generic [ref=e1538]: "-"
+            - cell "-" [ref=e1539]:
+              - generic [ref=e1540]: "-"
+            - cell "Update" [ref=e1541]:
+              - button "Update" [ref=e1543] [cursor=pointer]:
+                - generic [ref=e1544] [cursor=pointer]: Update
+          - row "FL15DAVA067 rs-941b65 BBT-395954 24-11-2025 1... Sanjana Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1545]:
+            - cell [ref=e1546]:
+              - generic [ref=e1549]:
+                - generic [ref=e1550]: 󰄱
+                - checkbox [ref=e1551] [cursor=pointer]
+            - cell "FL15DAVA067" [ref=e1552]:
+              - generic [ref=e1553]: FL15DAVA067
+            - cell "rs-941b65" [ref=e1554]:
+              - link "rs-941b65" [ref=e1556] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-395954" [ref=e1557]:
+              - generic [ref=e1559]: BBT-395954
+            - cell "24-11-2025 1..." [ref=e1560]:
+              - generic [ref=e1562] [cursor=pointer]: 24-11-2025 1...
+            - cell "Sanjana" [ref=e1563]:
+              - generic [ref=e1565]: Sanjana
+            - cell [ref=e1566]
+            - cell "Request" [ref=e1567]:
+              - generic [ref=e1569]: Request
+            - cell "Dealer-Partn..." [ref=e1570]:
+              - generic [ref=e1572] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1573]:
+              - generic [ref=e1575] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1576]:
+              - generic [ref=e1577]: Pending Validation
+            - cell "-" [ref=e1578]:
+              - generic [ref=e1579]: "-"
+            - cell "-" [ref=e1580]:
+              - generic [ref=e1581]: "-"
+            - cell "Update" [ref=e1582]:
+              - button "Update" [ref=e1584] [cursor=pointer]:
+                - generic [ref=e1585] [cursor=pointer]: Update
+          - row "crm-635286 rs-35275c BBT-545383 20-11-2025 0... Haris electr... Request Dealer-Partn... - Pending Information - - Update" [ref=e1586]:
+            - cell [ref=e1587]:
+              - generic [ref=e1590]:
+                - generic [ref=e1591]: 󰄱
+                - checkbox [ref=e1592] [cursor=pointer]
+            - cell "crm-635286" [ref=e1593]:
+              - generic [ref=e1594]: crm-635286
+            - cell "rs-35275c" [ref=e1595]:
+              - link "rs-35275c" [ref=e1597] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-545383" [ref=e1598]:
+              - generic [ref=e1600]: BBT-545383
+            - cell "20-11-2025 0..." [ref=e1601]:
+              - generic [ref=e1603] [cursor=pointer]: 20-11-2025 0...
+            - cell "Haris electr..." [ref=e1604]:
+              - generic [ref=e1606] [cursor=pointer]: Haris electr...
+            - cell [ref=e1607]
+            - cell "Request" [ref=e1608]:
+              - generic [ref=e1610]: Request
+            - cell "Dealer-Partn..." [ref=e1611]:
+              - generic [ref=e1613] [cursor=pointer]: Dealer-Partn...
+            - cell "-" [ref=e1614]:
+              - generic [ref=e1615]: "-"
+            - cell "Pending Information" [ref=e1616]:
+              - generic [ref=e1617]: Pending Information
+            - cell "-" [ref=e1618]:
+              - generic [ref=e1619]: "-"
+            - cell "-" [ref=e1620]:
+              - generic [ref=e1621]: "-"
+            - cell "Update" [ref=e1622]:
+              - button "Update" [ref=e1624] [cursor=pointer]:
+                - generic [ref=e1625] [cursor=pointer]: Update
+          - row "CRM-376382801 rs-2128f4 BBT-c37616 21-11-2025 1... Bally electr... Request Dealer-Partn... ROOM NO- 12 ... In Process – Approved - - Update" [ref=e1626]:
+            - cell [ref=e1627]:
+              - generic [ref=e1630]:
+                - generic [ref=e1631]: 󰄱
+                - checkbox [ref=e1632] [cursor=pointer]
+            - cell "CRM-376382801" [ref=e1633]:
+              - generic [ref=e1634]: CRM-376382801
+            - cell "rs-2128f4" [ref=e1635]:
+              - link "rs-2128f4" [ref=e1637] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-c37616" [ref=e1638]:
+              - generic [ref=e1640]: BBT-c37616
+            - cell "21-11-2025 1..." [ref=e1641]:
+              - generic [ref=e1643] [cursor=pointer]: 21-11-2025 1...
+            - cell "Bally electr..." [ref=e1644]:
+              - generic [ref=e1646] [cursor=pointer]: Bally electr...
+            - cell [ref=e1647]
+            - cell "Request" [ref=e1648]:
+              - generic [ref=e1650]: Request
+            - cell "Dealer-Partn..." [ref=e1651]:
+              - generic [ref=e1653] [cursor=pointer]: Dealer-Partn...
+            - cell "ROOM NO- 12 ..." [ref=e1654]:
+              - generic [ref=e1656] [cursor=pointer]: ROOM NO- 12 ...
+            - cell "In Process – Approved" [ref=e1657]:
+              - generic [ref=e1658]: In Process – Approved
+            - cell "-" [ref=e1659]:
+              - generic [ref=e1660]: "-"
+            - cell "-" [ref=e1661]:
+              - generic [ref=e1662]: "-"
+            - cell "Update" [ref=e1663]:
+              - button "Update" [ref=e1665] [cursor=pointer]:
+                - generic [ref=e1666] [cursor=pointer]: Update
+          - row "FL15DAVA066 rs-c26d0b BBT-923093 20-11-2025 1... Jagadish Request Dealer-Partn... Ashok Vihar ... Pending Approval Docs - - Update" [ref=e1667]:
+            - cell [ref=e1668]:
+              - generic [ref=e1671]:
+                - generic [ref=e1672]: 󰄱
+                - checkbox [ref=e1673] [cursor=pointer]
+            - cell "FL15DAVA066" [ref=e1674]:
+              - generic [ref=e1675]: FL15DAVA066
+            - cell "rs-c26d0b" [ref=e1676]:
+              - link "rs-c26d0b" [ref=e1678] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-923093" [ref=e1679]:
+              - generic [ref=e1681]: BBT-923093
+            - cell "20-11-2025 1..." [ref=e1682]:
+              - generic [ref=e1684] [cursor=pointer]: 20-11-2025 1...
+            - cell "Jagadish" [ref=e1685]:
+              - generic [ref=e1687]: Jagadish
+            - cell [ref=e1688]
+            - cell "Request" [ref=e1689]:
+              - generic [ref=e1691]: Request
+            - cell "Dealer-Partn..." [ref=e1692]:
+              - generic [ref=e1694] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1695]:
+              - generic [ref=e1697] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Approval Docs" [ref=e1698]:
+              - generic [ref=e1699]: Pending Approval Docs
+            - cell "-" [ref=e1700]:
+              - generic [ref=e1701]: "-"
+            - cell "-" [ref=e1702]:
+              - generic [ref=e1703]: "-"
+            - cell "Update" [ref=e1704]:
+              - button "Update" [ref=e1706] [cursor=pointer]:
+                - generic [ref=e1707] [cursor=pointer]: Update
+          - row "FL15DAVA065 rs-e98b79 BBT-595426 20-11-2025 1... Dava Request Dealer-Partn... Ashok Vihar ... Pre Packaging Validation Approval - - Update" [ref=e1708]:
+            - cell [ref=e1709]:
+              - generic [ref=e1712]:
+                - generic [ref=e1713]: 󰄱
+                - checkbox [ref=e1714] [cursor=pointer]
+            - cell "FL15DAVA065" [ref=e1715]:
+              - generic [ref=e1716]: FL15DAVA065
+            - cell "rs-e98b79" [ref=e1717]:
+              - link "rs-e98b79" [ref=e1719] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-595426" [ref=e1720]:
+              - generic [ref=e1722]: BBT-595426
+            - cell "20-11-2025 1..." [ref=e1723]:
+              - generic [ref=e1725] [cursor=pointer]: 20-11-2025 1...
+            - cell "Dava" [ref=e1726]:
+              - generic [ref=e1728]: Dava
+            - cell [ref=e1729]
+            - cell "Request" [ref=e1730]:
+              - generic [ref=e1732]: Request
+            - cell "Dealer-Partn..." [ref=e1733]:
+              - generic [ref=e1735] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1736]:
+              - generic [ref=e1738] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pre Packaging Validation Approval" [ref=e1739]:
+              - generic [ref=e1740]: Pre Packaging Validation Approval
+            - cell "-" [ref=e1741]:
+              - generic [ref=e1742]: "-"
+            - cell "-" [ref=e1743]:
+              - generic [ref=e1744]: "-"
+            - cell "Update" [ref=e1745]:
+              - button "Update" [ref=e1747] [cursor=pointer]:
+                - generic [ref=e1748] [cursor=pointer]: Update
+          - row "FL15DAVA064 rs-d5a6ee BBT-819345 20-11-2025 1... Gajendra Request Dealer-Partn... Ashok Vihar ... Pending Approval Docs - - Update" [ref=e1749]:
+            - cell [ref=e1750]:
+              - generic [ref=e1753]:
+                - generic [ref=e1754]: 󰄱
+                - checkbox [ref=e1755] [cursor=pointer]
+            - cell "FL15DAVA064" [ref=e1756]:
+              - generic [ref=e1757]: FL15DAVA064
+            - cell "rs-d5a6ee" [ref=e1758]:
+              - link "rs-d5a6ee" [ref=e1760] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-819345" [ref=e1761]:
+              - generic [ref=e1763]: BBT-819345
+            - cell "20-11-2025 1..." [ref=e1764]:
+              - generic [ref=e1766] [cursor=pointer]: 20-11-2025 1...
+            - cell "Gajendra" [ref=e1767]:
+              - generic [ref=e1769]: Gajendra
+            - cell [ref=e1770]
+            - cell "Request" [ref=e1771]:
+              - generic [ref=e1773]: Request
+            - cell "Dealer-Partn..." [ref=e1774]:
+              - generic [ref=e1776] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1777]:
+              - generic [ref=e1779] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Approval Docs" [ref=e1780]:
+              - generic [ref=e1781]: Pending Approval Docs
+            - cell "-" [ref=e1782]:
+              - generic [ref=e1783]: "-"
+            - cell "-" [ref=e1784]:
+              - generic [ref=e1785]: "-"
+            - cell "Update" [ref=e1786]:
+              - button "Update" [ref=e1788] [cursor=pointer]:
+                - generic [ref=e1789] [cursor=pointer]: Update
+          - row "FL15DAVA063 rs-6bc314 BBT-489613 20-11-2025 1... Jayaram Request Dealer-Partn... Ashok Vihar ... Pending Approval Docs - - Update" [ref=e1790]:
+            - cell [ref=e1791]:
+              - generic [ref=e1794]:
+                - generic [ref=e1795]: 󰄱
+                - checkbox [ref=e1796] [cursor=pointer]
+            - cell "FL15DAVA063" [ref=e1797]:
+              - generic [ref=e1798]: FL15DAVA063
+            - cell "rs-6bc314" [ref=e1799]:
+              - link "rs-6bc314" [ref=e1801] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-489613" [ref=e1802]:
+              - generic [ref=e1804]: BBT-489613
+            - cell "20-11-2025 1..." [ref=e1805]:
+              - generic [ref=e1807] [cursor=pointer]: 20-11-2025 1...
+            - cell "Jayaram" [ref=e1808]:
+              - generic [ref=e1810]: Jayaram
+            - cell [ref=e1811]
+            - cell "Request" [ref=e1812]:
+              - generic [ref=e1814]: Request
+            - cell "Dealer-Partn..." [ref=e1815]:
+              - generic [ref=e1817] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1818]:
+              - generic [ref=e1820] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Approval Docs" [ref=e1821]:
+              - generic [ref=e1822]: Pending Approval Docs
+            - cell "-" [ref=e1823]:
+              - generic [ref=e1824]: "-"
+            - cell "-" [ref=e1825]:
+              - generic [ref=e1826]: "-"
+            - cell "Update" [ref=e1827]:
+              - button "Update" [ref=e1829] [cursor=pointer]:
+                - generic [ref=e1830] [cursor=pointer]: Update
+          - row "FL15DAVA062 rs-4b2692 BBT-236265 20-11-2025 1... Karan Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1831]:
+            - cell [ref=e1832]:
+              - generic [ref=e1835]:
+                - generic [ref=e1836]: 󰄱
+                - checkbox [ref=e1837] [cursor=pointer]
+            - cell "FL15DAVA062" [ref=e1838]:
+              - generic [ref=e1839]: FL15DAVA062
+            - cell "rs-4b2692" [ref=e1840]:
+              - link "rs-4b2692" [ref=e1842] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-236265" [ref=e1843]:
+              - generic [ref=e1845]: BBT-236265
+            - cell "20-11-2025 1..." [ref=e1846]:
+              - generic [ref=e1848] [cursor=pointer]: 20-11-2025 1...
+            - cell "Karan" [ref=e1849]:
+              - generic [ref=e1851]: Karan
+            - cell [ref=e1852]
+            - cell "Request" [ref=e1853]:
+              - generic [ref=e1855]: Request
+            - cell "Dealer-Partn..." [ref=e1856]:
+              - generic [ref=e1858] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1859]:
+              - generic [ref=e1861] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1862]:
+              - generic [ref=e1863]: Pending Validation
+            - cell "-" [ref=e1864]:
+              - generic [ref=e1865]: "-"
+            - cell "-" [ref=e1866]:
+              - generic [ref=e1867]: "-"
+            - cell "Update" [ref=e1868]:
+              - button "Update" [ref=e1870] [cursor=pointer]:
+                - generic [ref=e1871] [cursor=pointer]: Update
+          - row "FL15DAVA061 rs-4f3455 BBT-921450 20-11-2025 1... Sanjana Request Dealer-Partn... Ashok Vihar ... Pending Validation - - Update" [ref=e1872]:
+            - cell [ref=e1873]:
+              - generic [ref=e1876]:
+                - generic [ref=e1877]: 󰄱
+                - checkbox [ref=e1878] [cursor=pointer]
+            - cell "FL15DAVA061" [ref=e1879]:
+              - generic [ref=e1880]: FL15DAVA061
+            - cell "rs-4f3455" [ref=e1881]:
+              - link "rs-4f3455" [ref=e1883] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-921450" [ref=e1884]:
+              - generic [ref=e1886]: BBT-921450
+            - cell "20-11-2025 1..." [ref=e1887]:
+              - generic [ref=e1889] [cursor=pointer]: 20-11-2025 1...
+            - cell "Sanjana" [ref=e1890]:
+              - generic [ref=e1892]: Sanjana
+            - cell [ref=e1893]
+            - cell "Request" [ref=e1894]:
+              - generic [ref=e1896]: Request
+            - cell "Dealer-Partn..." [ref=e1897]:
+              - generic [ref=e1899] [cursor=pointer]: Dealer-Partn...
+            - cell "Ashok Vihar ..." [ref=e1900]:
+              - generic [ref=e1902] [cursor=pointer]: Ashok Vihar ...
+            - cell "Pending Validation" [ref=e1903]:
+              - generic [ref=e1904]: Pending Validation
+            - cell "-" [ref=e1905]:
+              - generic [ref=e1906]: "-"
+            - cell "-" [ref=e1907]:
+              - generic [ref=e1908]: "-"
+            - cell "Update" [ref=e1909]:
+              - button "Update" [ref=e1911] [cursor=pointer]:
+                - generic [ref=e1912] [cursor=pointer]: Update
+          - row "CRM9002222 rs-9e329a BBT-513ca3 20-11-2025 1... Dava gajendr... Request Dealer-Partn... Jayanagar Pending Information - - Update" [ref=e1913]:
+            - cell [ref=e1914]:
+              - generic [ref=e1917]:
+                - generic [ref=e1918]: 󰄱
+                - checkbox [ref=e1919] [cursor=pointer]
+            - cell "CRM9002222" [ref=e1920]:
+              - generic [ref=e1921]: CRM9002222
+            - cell "rs-9e329a" [ref=e1922]:
+              - link "rs-9e329a" [ref=e1924] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-513ca3" [ref=e1925]:
+              - generic [ref=e1927]: BBT-513ca3
+            - cell "20-11-2025 1..." [ref=e1928]:
+              - generic [ref=e1930] [cursor=pointer]: 20-11-2025 1...
+            - cell "Dava gajendr..." [ref=e1931]:
+              - generic [ref=e1933] [cursor=pointer]: Dava gajendr...
+            - cell [ref=e1934]
+            - cell "Request" [ref=e1935]:
+              - generic [ref=e1937]: Request
+            - cell "Dealer-Partn..." [ref=e1938]:
+              - generic [ref=e1940] [cursor=pointer]: Dealer-Partn...
+            - cell "Jayanagar" [ref=e1941]:
+              - generic [ref=e1943]: Jayanagar
+            - cell "Pending Information" [ref=e1944]:
+              - generic [ref=e1945]: Pending Information
+            - cell "-" [ref=e1946]:
+              - generic [ref=e1947]: "-"
+            - cell "-" [ref=e1948]:
+              - generic [ref=e1949]: "-"
+            - cell "Update" [ref=e1950]:
+              - button "Update" [ref=e1952] [cursor=pointer]:
+                - generic [ref=e1953] [cursor=pointer]: Update
+          - row "FL15DAVA060 rs-43a591 BBT-707023 20-11-2025 1... Jagadish Request Dealer-Partn... Phase I, 1st... Pending Validation - - Update" [ref=e1954]:
+            - cell [ref=e1955]:
+              - generic [ref=e1958]:
+                - generic [ref=e1959]: 󰄱
+                - checkbox [ref=e1960] [cursor=pointer]
+            - cell "FL15DAVA060" [ref=e1961]:
+              - generic [ref=e1962]: FL15DAVA060
+            - cell "rs-43a591" [ref=e1963]:
+              - link "rs-43a591" [ref=e1965] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-707023" [ref=e1966]:
+              - generic [ref=e1968]: BBT-707023
+            - cell "20-11-2025 1..." [ref=e1969]:
+              - generic [ref=e1971] [cursor=pointer]: 20-11-2025 1...
+            - cell "Jagadish" [ref=e1972]:
+              - generic [ref=e1974]: Jagadish
+            - cell [ref=e1975]
+            - cell "Request" [ref=e1976]:
+              - generic [ref=e1978]: Request
+            - cell "Dealer-Partn..." [ref=e1979]:
+              - generic [ref=e1981] [cursor=pointer]: Dealer-Partn...
+            - cell "Phase I, 1st..." [ref=e1982]:
+              - generic [ref=e1984] [cursor=pointer]: Phase I, 1st...
+            - cell "Pending Validation" [ref=e1985]:
+              - generic [ref=e1986]: Pending Validation
+            - cell "-" [ref=e1987]:
+              - generic [ref=e1988]: "-"
+            - cell "-" [ref=e1989]:
+              - generic [ref=e1990]: "-"
+            - cell "Update" [ref=e1991]:
+              - button "Update" [ref=e1993] [cursor=pointer]:
+                - generic [ref=e1994] [cursor=pointer]: Update
+          - row "FL15DAVA058 rs-e8bccb BBT-3985 20-11-2025 1... Gajendra Request Dealer-Partn... Phase I, 1st... Pending Approval Docs - - Update" [ref=e1995]:
+            - cell [ref=e1996]:
+              - generic [ref=e1999]:
+                - generic [ref=e2000]: 󰄱
+                - checkbox [ref=e2001] [cursor=pointer]
+            - cell "FL15DAVA058" [ref=e2002]:
+              - generic [ref=e2003]: FL15DAVA058
+            - cell "rs-e8bccb" [ref=e2004]:
+              - link "rs-e8bccb" [ref=e2006] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-3985" [ref=e2007]:
+              - generic [ref=e2009]: BBT-3985
+            - cell "20-11-2025 1..." [ref=e2010]:
+              - generic [ref=e2012] [cursor=pointer]: 20-11-2025 1...
+            - cell "Gajendra" [ref=e2013]:
+              - generic [ref=e2015]: Gajendra
+            - cell [ref=e2016]
+            - cell "Request" [ref=e2017]:
+              - generic [ref=e2019]: Request
+            - cell "Dealer-Partn..." [ref=e2020]:
+              - generic [ref=e2022] [cursor=pointer]: Dealer-Partn...
+            - cell "Phase I, 1st..." [ref=e2023]:
+              - generic [ref=e2025] [cursor=pointer]: Phase I, 1st...
+            - cell "Pending Approval Docs" [ref=e2026]:
+              - generic [ref=e2027]: Pending Approval Docs
+            - cell "-" [ref=e2028]:
+              - generic [ref=e2029]: "-"
+            - cell "-" [ref=e2030]:
+              - generic [ref=e2031]: "-"
+            - cell "Update" [ref=e2032]:
+              - button "Update" [ref=e2034] [cursor=pointer]:
+                - generic [ref=e2035] [cursor=pointer]: Update
+          - row "FL15DAVA059 rs-d2d9d8 BBT-367549 20-11-2025 1... Dava Request Dealer-Partn... 13, Amman Ku... Pre Packaging Validation Approval - - Update" [ref=e2036]:
+            - cell [ref=e2037]:
+              - generic [ref=e2040]:
+                - generic [ref=e2041]: 󰄱
+                - checkbox [ref=e2042] [cursor=pointer]
+            - cell "FL15DAVA059" [ref=e2043]:
+              - generic [ref=e2044]: FL15DAVA059
+            - cell "rs-d2d9d8" [ref=e2045]:
+              - link "rs-d2d9d8" [ref=e2047] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-367549" [ref=e2048]:
+              - generic [ref=e2050]: BBT-367549
+            - cell "20-11-2025 1..." [ref=e2051]:
+              - generic [ref=e2053] [cursor=pointer]: 20-11-2025 1...
+            - cell "Dava" [ref=e2054]:
+              - generic [ref=e2056]: Dava
+            - cell [ref=e2057]
+            - cell "Request" [ref=e2058]:
+              - generic [ref=e2060]: Request
+            - cell "Dealer-Partn..." [ref=e2061]:
+              - generic [ref=e2063] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e2064]:
+              - generic [ref=e2066] [cursor=pointer]: 13, Amman Ku...
+            - cell "Pre Packaging Validation Approval" [ref=e2067]:
+              - generic [ref=e2068]: Pre Packaging Validation Approval
+            - cell "-" [ref=e2069]:
+              - generic [ref=e2070]: "-"
+            - cell "-" [ref=e2071]:
+              - generic [ref=e2072]: "-"
+            - cell "Update" [ref=e2073]:
+              - button "Update" [ref=e2075] [cursor=pointer]:
+                - generic [ref=e2076] [cursor=pointer]: Update
+          - row "FL15DAVA057 rs-56c304 BBT-629557 20-11-2025 1... Jayaram Request Dealer-Partn... 13, Amman Ku... Pending Approval Docs - - Update" [ref=e2077]:
+            - cell [ref=e2078]:
+              - generic [ref=e2081]:
+                - generic [ref=e2082]: 󰄱
+                - checkbox [ref=e2083] [cursor=pointer]
+            - cell "FL15DAVA057" [ref=e2084]:
+              - generic [ref=e2085]: FL15DAVA057
+            - cell "rs-56c304" [ref=e2086]:
+              - link "rs-56c304" [ref=e2088] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-629557" [ref=e2089]:
+              - generic [ref=e2091]: BBT-629557
+            - cell "20-11-2025 1..." [ref=e2092]:
+              - generic [ref=e2094] [cursor=pointer]: 20-11-2025 1...
+            - cell "Jayaram" [ref=e2095]:
+              - generic [ref=e2097]: Jayaram
+            - cell [ref=e2098]
+            - cell "Request" [ref=e2099]:
+              - generic [ref=e2101]: Request
+            - cell "Dealer-Partn..." [ref=e2102]:
+              - generic [ref=e2104] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e2105]:
+              - generic [ref=e2107] [cursor=pointer]: 13, Amman Ku...
+            - cell "Pending Approval Docs" [ref=e2108]:
+              - generic [ref=e2109]: Pending Approval Docs
+            - cell "-" [ref=e2110]:
+              - generic [ref=e2111]: "-"
+            - cell "-" [ref=e2112]:
+              - generic [ref=e2113]: "-"
+            - cell "Update" [ref=e2114]:
+              - button "Update" [ref=e2116] [cursor=pointer]:
+                - generic [ref=e2117] [cursor=pointer]: Update
+          - row "FL15DAVA056 rs-02aa27 BBT-258043 20-11-2025 1... Karan Request Dealer-Partn... Phase I, 1st... Pending Validation - - Update" [ref=e2118]:
+            - cell [ref=e2119]:
+              - generic [ref=e2122]:
+                - generic [ref=e2123]: 󰄱
+                - checkbox [ref=e2124] [cursor=pointer]
+            - cell "FL15DAVA056" [ref=e2125]:
+              - generic [ref=e2126]: FL15DAVA056
+            - cell "rs-02aa27" [ref=e2127]:
+              - link "rs-02aa27" [ref=e2129] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-258043" [ref=e2130]:
+              - generic [ref=e2132]: BBT-258043
+            - cell "20-11-2025 1..." [ref=e2133]:
+              - generic [ref=e2135] [cursor=pointer]: 20-11-2025 1...
+            - cell "Karan" [ref=e2136]:
+              - generic [ref=e2138]: Karan
+            - cell [ref=e2139]
+            - cell "Request" [ref=e2140]:
+              - generic [ref=e2142]: Request
+            - cell "Dealer-Partn..." [ref=e2143]:
+              - generic [ref=e2145] [cursor=pointer]: Dealer-Partn...
+            - cell "Phase I, 1st..." [ref=e2146]:
+              - generic [ref=e2148] [cursor=pointer]: Phase I, 1st...
+            - cell "Pending Validation" [ref=e2149]:
+              - generic [ref=e2150]: Pending Validation
+            - cell "-" [ref=e2151]:
+              - generic [ref=e2152]: "-"
+            - cell "-" [ref=e2153]:
+              - generic [ref=e2154]: "-"
+            - cell "Update" [ref=e2155]:
+              - button "Update" [ref=e2157] [cursor=pointer]:
+                - generic [ref=e2158] [cursor=pointer]: Update
+          - row "FL15DAVA055 rs-86d694 BBT-228053 20-11-2025 1... Sanjana Request Dealer-Partn... 13, Amman Ku... Pending Validation - - Update" [ref=e2159]:
+            - cell [ref=e2160]:
+              - generic [ref=e2163]:
+                - generic [ref=e2164]: 󰄱
+                - checkbox [ref=e2165] [cursor=pointer]
+            - cell "FL15DAVA055" [ref=e2166]:
+              - generic [ref=e2167]: FL15DAVA055
+            - cell "rs-86d694" [ref=e2168]:
+              - link "rs-86d694" [ref=e2170] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-228053" [ref=e2171]:
+              - generic [ref=e2173]: BBT-228053
+            - cell "20-11-2025 1..." [ref=e2174]:
+              - generic [ref=e2176] [cursor=pointer]: 20-11-2025 1...
+            - cell "Sanjana" [ref=e2177]:
+              - generic [ref=e2179]: Sanjana
+            - cell [ref=e2180]
+            - cell "Request" [ref=e2181]:
+              - generic [ref=e2183]: Request
+            - cell "Dealer-Partn..." [ref=e2184]:
+              - generic [ref=e2186] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e2187]:
+              - generic [ref=e2189] [cursor=pointer]: 13, Amman Ku...
+            - cell "Pending Validation" [ref=e2190]:
+              - generic [ref=e2191]: Pending Validation
+            - cell "-" [ref=e2192]:
+              - generic [ref=e2193]: "-"
+            - cell "-" [ref=e2194]:
+              - generic [ref=e2195]: "-"
+            - cell "Update" [ref=e2196]:
+              - button "Update" [ref=e2198] [cursor=pointer]:
+                - generic [ref=e2199] [cursor=pointer]: Update
+          - row "crm-635287 rs-7802b6 BBT-475413 20-11-2025 0... Haris electr... Request Dealer-Partn... 13, Amman Ku... In Process – Approved - - Update" [ref=e2200]:
+            - cell [ref=e2201]:
+              - generic [ref=e2204]:
+                - generic [ref=e2205]: 󰄱
+                - checkbox [ref=e2206] [cursor=pointer]
+            - cell "crm-635287" [ref=e2207]:
+              - generic [ref=e2208]: crm-635287
+            - cell "rs-7802b6" [ref=e2209]:
+              - link "rs-7802b6" [ref=e2211] [cursor=pointer]:
+                - /url: "#"
+            - cell "BBT-475413" [ref=e2212]:
+              - generic [ref=e2214]: BBT-475413
+            - cell "20-11-2025 0..." [ref=e2215]:
+              - generic [ref=e2217] [cursor=pointer]: 20-11-2025 0...
+            - cell "Haris electr..." [ref=e2218]:
+              - generic [ref=e2220] [cursor=pointer]: Haris electr...
+            - cell [ref=e2221]
+            - cell "Request" [ref=e2222]:
+              - generic [ref=e2224]: Request
+            - cell "Dealer-Partn..." [ref=e2225]:
+              - generic [ref=e2227] [cursor=pointer]: Dealer-Partn...
+            - cell "13, Amman Ku..." [ref=e2228]:
+              - generic [ref=e2230] [cursor=pointer]: 13, Amman Ku...
+            - cell "In Process – Approved" [ref=e2231]:
+              - generic [ref=e2232]: In Process – Approved
+            - cell "-" [ref=e2233]:
+              - generic [ref=e2234]: "-"
+            - cell "-" [ref=e2235]:
+              - generic [ref=e2236]: "-"
+            - cell "Update" [ref=e2237]:
+              - button "Update" [ref=e2239] [cursor=pointer]:
+                - generic [ref=e2240] [cursor=pointer]: Update
+      - generic [ref=e2243]:
+        - generic [ref=e2244]:
+          - generic [ref=e2245]: Rows Per Page
+          - generic [ref=e2246]:
+            - combobox [ref=e2248] [cursor=pointer]:
+              - generic [ref=e2250] [cursor=pointer]:
+                - generic [ref=e2252] [cursor=pointer]: "50"
+                - textbox "Open": "50"
+              - generic [ref=e2254] [cursor=pointer]: 󰍝
+            - alert [ref=e2255]
+        - generic [ref=e2258]:
+          - generic [ref=e2259]: Showing Results 1 - 50 of 1446
+          - navigation "Pagination Navigation" [ref=e2261]:
+            - list [ref=e2262]:
+              - listitem [ref=e2263]:
+                - button "Previous page" [disabled]:
+                  - generic:
+                    - generic: 󰅁
+              - listitem [ref=e2264]:
+                - button "Page 1, Current page" [ref=e2265] [cursor=pointer]:
+                  - generic [ref=e2266] [cursor=pointer]: "1"
+              - listitem [ref=e2267]:
+                - button "Go to page 2" [ref=e2268] [cursor=pointer]:
+                  - generic [ref=e2269] [cursor=pointer]: "2"
+              - listitem [ref=e2270]:
+                - button "Go to page 3" [ref=e2271] [cursor=pointer]:
+                  - generic [ref=e2272] [cursor=pointer]: "3"
+              - listitem [ref=e2273]:
+                - button "Go to page 4" [ref=e2274] [cursor=pointer]:
+                  - generic [ref=e2275] [cursor=pointer]: "4"
+              - listitem [ref=e2276]:
+                - button "Go to page 5" [ref=e2277] [cursor=pointer]:
+                  - generic [ref=e2278] [cursor=pointer]: "5"
+              - listitem [ref=e2279]:
+                - button "Go to page 6" [ref=e2280] [cursor=pointer]:
+                  - generic [ref=e2281] [cursor=pointer]: "6"
+              - listitem [ref=e2282]:
+                - button "..." [disabled]:
+                  - generic: ...
+              - listitem [ref=e2283]:
+                - button "Go to page 29" [ref=e2284] [cursor=pointer]:
+                  - generic [ref=e2285] [cursor=pointer]: "29"
+              - listitem [ref=e2286]:
+                - button "Next page" [ref=e2287] [cursor=pointer]:
+                  - generic [ref=e2289] [cursor=pointer]: 󰅂
+  - generic:
+    - tooltip
+    - tooltip
+```
