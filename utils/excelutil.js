@@ -20,9 +20,6 @@ async function getTestData(sheetName, testCaseName) {
         contactNumber: row.getCell(8).value,
         location: row.getCell(9).value,
         filePath: row.getCell(10).value
-
-
-
       };
     }
   });

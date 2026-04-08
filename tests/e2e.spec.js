@@ -103,7 +103,7 @@ test('1-D2C Ticket Creation', async ({ page }) => {
   await loginPage.navigate();
   await loginPage.login();
   await loginPage.verifyLogin();
-  
+
 // Return Creation
   const returnPage = new creeaterequestpage(page,testData);
   await returnPage.verifyModuleAndStartRequest();

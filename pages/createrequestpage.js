@@ -17,9 +17,8 @@ class creeaterequestpage {
      // corrected casing
     this.header = page.locator('//div[text()="Return Creation "]');
     this.createRequestBtn = page.locator('//span[text()="Create Request"]');
-    this.selectActionDropd = page.location("//span[text()=' Select Action ']");
+    this.selectActionDropd = page.locator("//span[text()=' Select Action ']");
   }
-
   async verifyModuleAndStartRequest() {
     const headerText = await this.header.textContent();
    await this.selectActionDropd.click();

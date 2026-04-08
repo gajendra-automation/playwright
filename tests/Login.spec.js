@@ -5,7 +5,7 @@ test.describe('Login Tests', () => {
   test('Login with valid credentials', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.navigate();
-    await loginPage.login("CSE02", "blubirch@123");
+    await loginPage.login("dava_admin", "blubirch@123");
     //await expect(page).toHaveURL(/return-creation/);
   });
 });

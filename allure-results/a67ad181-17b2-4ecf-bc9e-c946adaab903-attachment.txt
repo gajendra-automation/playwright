@@ -1,0 +1,26 @@
+2026-04-08T11:55:13.761Z WARN webdriver: WebDriverError: Request failed with error code ECONNREFUSED when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
+2026-04-08T11:55:14.271Z WARN webdriver: WebDriverError: Request failed with error code ECONNREFUSED when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
+2026-04-08T11:55:15.297Z WARN webdriver: WebDriverError: Request failed with error code ECONNREFUSED when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
+2026-04-08T11:55:15.312Z ERROR webdriver: WebDriverError: Request failed with error code ECONNREFUSED when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
+2026-04-08T11:55:15.314Z ERROR webdriver: Error: WebDriverError: Request failed with error code ECONNREFUSED when running "http://localhost:4723/wd/hub/session" with method "POST" and args "{"capabilities":{"alwaysMatch":{"platformName":"Android","deviceName":"RZCX20C3RVT","app":"C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk","automationName":"UiAutomator2","appWaitActivity":"*","newCommandTimeout":300,"autoGrantPermissions":true},"firstMatch":[{}]}}"
+    at FetchRequest._libRequest (file:///C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT%20AUTOMATION/node_modules/webdriver/build/node.js:1906:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at FetchRequest._request (file:///C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT%20AUTOMATION/node_modules/webdriver/build/node.js:1916:20)
+    at startWebDriverSession (file:///C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT%20AUTOMATION/node_modules/webdriver/build/node.js:1062:16)
+    at Function.newSession (file:///C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT%20AUTOMATION/node_modules/webdriver/build/node.js:1484:41)
+    at remote (file:///C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT%20AUTOMATION/node_modules/webdriverio/build/node.js:8837:20)
+    at C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\tests\rimsflow.spec.js:48:18
+    at C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\testInfo.js:311:11
+    at TimeoutManager.withRunnable (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\testInfo.js:309:7)
+    at FixtureRunner.resolveParametersAndRunFunction (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\fixtureRunner.js:228:5)
+    at C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:441:13
+    at TestInfoImpl._runAsStep (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\testInfo.js:300:7)
+    at WorkerMain._runAllHooksForSuite (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:436:9)
+    at WorkerMain._runBeforeAllHooksForSuite (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:430:5)
+    at C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:312:11
+    at TestInfoImpl._runAsStep (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\testInfo.js:300:7)
+    at C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:310:7
+    at WorkerMain._runTest (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:295:5)
+    at WorkerMain.runTestGroup (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\worker\workerMain.js:199:11)
+    at process.<anonymous> (C:\Users\Blubirch.DESKTOP-EN2LGLN\PLAYWRIGHT AUTOMATION\node_modules\playwright\lib\common\process.js:65:22)

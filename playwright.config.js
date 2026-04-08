@@ -1,28 +1,33 @@
 // @ts-check
-import { defineConfig, devices } from '@playwright/test';
-import { TIMEOUT } from 'dns';
-
-
+const { defineConfig, devices } = require('@playwright/test');
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
 
-const config=({
+module.exports = defineConfig({
   testDir: './tests',
-  timeout:60*1000,
-  expect:{
-    timeout:60*1000,
+
+  timeout: 60 * 1000,
+
+  expect: {
+    timeout: 60 * 1000,
   },
-reporter: [["allure-playwright"]],
+
+  reporter: [['allure-playwright']],
 
   use: {
-    browserName:"chromium",
-    headless:false,
+    headless: false,
     screenshot: 'only-on-failure',
-    trace:'retain-on-failure'
+    trace: 'retain-on-failure',
   },
 
+  projects: [
+    {
+      name: 'chromium',
+      use: {
+        browserName: 'chromium',
+      },
+    },
+  ],
 });
-
-module.exports = config

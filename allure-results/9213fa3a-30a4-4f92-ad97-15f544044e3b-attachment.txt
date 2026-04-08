@@ -1,0 +1,9 @@
+2026-04-08T11:55:50.771Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-04-08T11:55:50.775Z INFO @wdio/utils: Connecting to existing driver at http://localhost:4723/wd/hub
+2026-04-08T11:55:50.807Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session
+2026-04-08T11:55:50.845Z INFO webdriver: Retrying 1/3
+2026-04-08T11:55:50.845Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session
+2026-04-08T11:55:51.355Z INFO webdriver: Retrying 2/3
+2026-04-08T11:55:51.356Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session
+2026-04-08T11:55:52.396Z INFO webdriver: Retrying 3/3
+2026-04-08T11:55:52.398Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session

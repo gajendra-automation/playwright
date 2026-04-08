@@ -11,7 +11,8 @@ class LoginPage {
     this.loginBtn = page.locator('//span[text()="Login"]');
   }
   async navigate() {
-  await this.page.goto(this.url);
+    console.log('Navigating to URL:', this.url);
+    await this.page.goto(this.url);
   }
     async login(username = this.username, password = this.password) {
     await this.usernameInput.fill(username);
